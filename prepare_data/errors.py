@@ -19,6 +19,7 @@ def appchecker_parse():
                     writer.writerow(d)
                     print(d)
 
+
 def clang_parse():
     with open('clang.txt') as f:
         with open('errors.csv', 'a', newline='') as csvfile:
@@ -38,6 +39,7 @@ def clang_parse():
                     if d['CWE-ID'] != "":
                         writer.writerow(d)
                         print(d)
+
 
 def clang_parse2():
     with open('clang_bugs') as f:

@@ -97,7 +97,6 @@ CWE-ID,name,tool_name
 835,Loop with Unreachable Exit Condition ('Infinite Loop'),AppChecker
 858,CERT Java Secure Coding Section 13 - Serialization (SER),AppChecker
 961,SFP Secondary Cluster: Incorrect Exception Behavior,AppChecker
-CWE-ID,description,tool_name
 0,Sink Point,clang-analyzer
 0,Analyzer Statistics,clang-analyzer
 788,Out-of-bound array access,clang-analyzer

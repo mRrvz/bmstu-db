@@ -8,19 +8,26 @@ with open('MOCK_DATA.csv', newline='') as csvfile:
     for x in writer:
         names.append(x['appname'])
 
+
 def cut(string, i=1, j=-1):
     return string.split(':', 1)[i][1:j]
 
 
-def generate_tools():
+def generate_tools(names_):
     value = dict()
-    value['name'] = random.choice(names)
+
+    name = random.choice(names)
+    while name in names_:
+        name = random.choice(names) + str(random.randint(1, 20))
+    names_.append(name)
+
+    value['name'] = name
     value['description'] = "No Description"
     value['homepage'] = "No Homepage"
-    value['proprietary'] = random.choice(['true', 'false'])
+    value['proprietary'] = random.choice(['N', 'Y'])
     value['languages'] = random.choice(['javascript', 'haskell', 'cpp', 'java', 'kotlin', 'objectivec', 'ocaml', 'bash', 'python', 'asm', 'csharp'])
 
-    return value
+    return value, names_
 
 
 def parse(tool):
@@ -28,7 +35,7 @@ def parse(tool):
     strings = tool.split('\n')
     values['name'] = cut(strings[0], 0, j=len(strings[0]))
     values['homepage'] = cut(strings[1])[1:]
-    values['proprietary'] = 'false'
+    values['proprietary'] = 'N'
 
     is_tags = False
 
@@ -37,12 +44,13 @@ def parse(tool):
             vai = cut(value)
             if vai.startswith('"'):
                 values['description'] = vai[1:]
+                print(values['description'])
             else:
                 values['description'] = vai
             is_tags = False
 
         if 'proprietary' in value:
-            values['proprietary'] = cut(value,j=len(value))
+            values['proprietary'] = 'Y'
             is_tags = False
 
         if 'tags:' in value:
@@ -68,10 +76,13 @@ with open('tools.txt') as f:
 
         apps = f.read().split('- name:')
 
+        names_ = []
         for tool in apps[1:]:
             val = parse(tool)
+            names.append(val['name'])
             writer.writerow(val)
 
         for i in range(600):
-            val = generate_tools()
+            val, names_ = generate_tools(names)
             writer.writerow(val)
+

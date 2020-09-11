@@ -1,0 +1,3 @@
+db_name = static_analysis_defects
+db_domain = com
+service_names=static_analysis_defects.com

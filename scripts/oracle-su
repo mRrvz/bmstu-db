@@ -1,0 +1,3 @@
+/etc/security/limits.conf
+oracle           -       nofile          10
+

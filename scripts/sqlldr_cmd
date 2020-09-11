@@ -1,0 +1,2 @@
+sqlldr \'sys/061100 as sysdba\'  control='/home/oracle/scripts/load.ctl' log='log.ctl'
+

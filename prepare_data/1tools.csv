@@ -1,0 +1,1089 @@
+name,homepage,description,languages
+.NET Analyzers,https://github.com/DotNetAnalyzers,An organization for the development of analyzers (diagnostics and code fixes) using the .NET Compiler Platform,csharp,N
+abaplint,https://abaplint.org/,"Linter for ABAP, written in TypeScript.",abap,N
+abapOpenChecks,https://docs.abapopenchecks.org/,Enhances the SAP Code Inspector with new and customizable checks,abap,N
+aether,http://aetherjs.com/,"Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.",javascript,N
+After the Deadline,https://afterthedeadline.com/,"Spell, style and grammar checker.",writing,N
+ale,https://github.com/w0rp/ale,Asynchronous Lint Engine for Vim and NeoVim with support for many languages,ide,N
+alex,https://alexjs.com/,"Catch insensitive, inconsiderate writin",writing,N
+aligncheck,https://gitlab.com/opennota/check,Find inefficiently packed structs,go,N
+ameba,https://crystal-ameba.github.io/,A static code analysis tool for Crystal,crystal,N
+anchore,https://anchore.io/,"Discover, analyze, and certify container images.",container,N
+Android Lint,http://tools.android.com/tips/lint,Run static analysis on Android projects,mobile,N
+Android Studio,https://developer.android.com/studio,"Based on IntelliJ IDEA, and comes bundled with tools for Android including Android Lint.",ide,N
+android-lint-summary,https://passy.github.io/android-lint-summary/,"Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.",mobile,N
+ansible-lint,https://docs.ansible.com/ansible-lint/,Checks playbooks for practices and behaviour that could potentially be improved,configmanagement,N
+AppChecker,https://npo-echelon.ru/en/solutions/appchecker.php,"Static analysis for C/C++/C#, PHP and Java.","c, cpp, java, php",Y
+Application Inspector,https://www.ptsecurity.com/ww-en/products/ai/,Commercial Static Code Analysis which generates exploits to verify vulnerabilities.,"asp, c, cpp, csharp, html, java, javascript, objectivec, php, sql, swift, vbnet",Y
+ApplicationInspector,https://github.com/microsoft/ApplicationInspector,Creates reports of over 400 rule patterns for feature detection (e.g. the use of cryptography or version control in apps).,"c, cpp, csharp, go, html, java, javascript, objectivec, php, powershell, python, ruby",N
+AppScan Source,https://www.hcltechsw.com/wps/portal/products/appscan/home,Commercial Static Code Analysis.,"asp, aspnet, c, csharp, cobol, coldfusion, cpp, java, javascript, jsp, mobile, perl, php, plsql, tsql, vbasic, vbnet, vbscript",Y
+APPscreener,https://solarappscreener.com/,"Static code analysis for binary and source code - Java/Scala, PHP, Javascript, C#, PL/SQL, Python, T-SQL, C/C++, ObjectiveC/Swift, Visual Basic 6.0, Ruby, Delphi, ABAP, HTML5 and Solidity.","java, scala, php, javascript, csharp, plsql, python, tsql, c, cpp, objectivec, swift, vbasic, ruby, delphi, abap, html, smart",Y
+ArchUnit,https://www.archunit.org/,Unit test your Java or Kotlin architecture,"java, kotlin",N
+ArchUnitNET,https://github.com/TNG/ArchUnitNET, A C# architecture test library to specify and assert architecture rules in C# for automated testing,csharp,N
+Astrée,https://www.absint.com/astree/index.htm,"Sound static analyzer based on abstract interpretation for C/C++, detecting memory, type and concurrency defects, and MISRA violations.","c, cpp",Y
+Atom-Beautify,https://atom.io/packages/atom-beautify,"Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor","html, css, javascript, php, python, ruby, java, c, cpp, csharp, objectivec, coffeescript, typescript, coldfusion, sql",N
+Attackflow Extension,https://www.attackflow.com/Extension,"Attackflow plugin for Visual Studio, which enables developers to find critical security bugs at real time in the source code without any prior knowledge.",ide,Y
+Axivion Bauhaus Suite,https://www.axivion.com/en/products-services-9#products_bauhaussuite,"Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95.","c, cpp, java, php",Y
+bandit,https://bandit.readthedocs.io/en/latest/,A tool to find common security issues in Python code,python,N
+bellybutton,https://github.com/hchasestevens/bellybutton,A linting engine supporting custom project-specific rules,python,N
+Better Code Hub,https://bettercodehub.com,"Better Code Hub checks your GitHub codebase against 10 engineering guidelines devised by the authority in software quality, Software Improvement Group","csharp, cpp, go, groovy, java, javascript, objectivec, perl, php, python, ruby, scala, shell, smart, swift, typescript, kotlin",Y
+BinSkim,https://github.com/Microsoft/binskim,A binary static analysis tool that provides security and correctness results for Windows portable executables,binary,N
+Black,https://black.readthedocs.io/en/stable/,The uncompromising Python code formatter,"python, formatter",N
+Black Duck,ttps://www.blackducksoftware.com,"Tool to analyze source code and binaries for reusable code, necessary licenses and potential security aspects",binary,Y
+bodyclose,https://github.com/timakin/bodyclose,Checks whether HTTP response body is closed,go,N
+Bootlint,https://github.com/twbs/bootlint,An HTML linter for Bootstrap projects,html,N
+brakeman,https://brakemanscanner.org/,A static analysis security vulnerability scanner for Ruby on Rails applications,"ruby, security",N
+brittany,https://github.com/lspitzner/brittany,Haskell source code formatte,haskell,N
+C2Rust,https://c2rust.com/,C2Rust helps you migrate C99-compliant code to Rust. The translator (or transpiler) produces unsafe Rust code that closely mirrors the input C code,rust,N
+cane,https://github.com/square/cane,Code quality threshold checking as part of your build,ruby,N
+cargo-audit,https://rustsec.org/,Audit Cargo.lock for crates with security vulnerabilities reported to the [RustSec Advisory Database](https://github.com/RustSec/advisory-db/).,rust,N
+cargo-inspect,https://github.com/mre/cargo-inspect,Inspect Rust code without syntactic sugar to see what the compiler does behind the curtains,rust,N
+CAST Highlight,https://www.castsoftware.com/products/highlight,"Commercial Static Code Analysis which runs locally, but uploads the results to its cloud for presentation.","abap, c, cobol, cpp, csharp, java, javascript, jsp, php, plsql, python, tsql, vbasic",Y
+CBMC,http://www.cprover.org/cbmc/,"Bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses.","c, cpp",N
+cfn-lint,https://github.com/awslabs/cfn-python-lint,AWS Labs CloudFormation linter,configmanagement,N
+cfn_nag,https://github.com/stelligent/cfn_nag,A linter for AWS CloudFormation templates,configmanagement,N
+Checker Framework,https://checkerframework.org/,Pluggable type-checking for Java.,java,N
+checkmake,https://github.com/mrtazz/checkmake,Linter / Analyzer for Makefiles,"buildtool, make",N
+Checkmarx CxSAST,https://www.checkmarx.com/products/static-application-security-testing/,Commercial Static Code Analysis which doesn't require pre-compilation.,"apex, asp, c, cpp, csharp, go, groovy, html, java, javascript, mobile, nodejs, objectivec, perl, phonegap, php, python, ruby, scala, security, swift, vbnet, vbasic, vbscript, visualforce",Y
+checkov,https://www.checkov.io/,"Static analysis tool for Terraform files (tf>=v0.12), preventing cloud misconfigs at build time.",configmanagement,N
+checkstyle,https://checkstyle.org/,Checking Java source code for adherence to a Code Standard or set of validation rules (best practices),java,N
+ChkTeX,http://www.nongnu.org/chktex/,A linter for LaTex which catches some typographic errors LaTeX oversees,latex,N
+churn-php,https://github.com/bmitch/churn-php,Helps discover good candidates for refactoring,php,N
+ciocheck,https://github.com/ContinuumIO/ciocheck,"Linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`.","python, meta, formatter",N
+ck,https://github.com/mauricioaniche/ck,Calculates Chidamber and Kemerer object-oriented metrics by processing the source Java files,java,N
+ckjm,http://www.spinellis.gr/sw/ckjm/,Calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files,java,N
+clair,https://github.com/coreos/clair,Vulnerability Static Analysis for Containers,container,N
+clang-tidy,http://clang.llvm.org/extra/clang-tidy/,clang static analyser,"c, cpp",N
+ClassGraph,https://github.com/classgraph/classgraph,A classpath and module path scanner for querying or visualizing class metadata or class relatedness,"java, groovy, kotlin",N
+clippy,https://rust-lang.github.io/rust-clippy/,A code linter to catch common mistakes and improve your Rust code,rust,N
+Closure Compiler,https://developers.google.com/closure/compiler/,"A compiler tool to increase efficiency, reduce size, and provide code warnings in JavaScript files.",javascript,N
+ClosureLinter,https://github.com/google/closure-linter,Ensures that all of your project's JavaScript code follows the guidelines in the Google JavaScript Style Guide. It can also automatically fix many common errors.,javascript,N
+clj-kondo,ttps://github.com/borkdude/clj-kond, A linter for Clojure code that sparks joy. It informs you about potential errors while you are typing,clojure,N
+CMetrics,https://github.com/MetricsGrimoire/CMetrics,Measures size and complexity for C files,"c, cpp",N
+coala,https://coala.io/,Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default.,"c, cpp, java, javascript, css",N
+Cobra,http://spinroot.com/cobra/,Structural source code analyzer by NASA's Jet Propulsion Laboratory.,"ada, c, cpp, python",Y
+Codacy,https://www.codacy.com/,"Code Analysis to ship Better Code, Faster.",service,Y
+Code Analysis Rule Collection,https://carc.codeplex.com/,"'Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform ""Roslyn"".",csharp,N
+Code Climate,https://codeclimate.com/,"The open and extensible static analysis platform, for everyone.",service,Y
+Code Inspector,https://www.code-inspector.com,Code quality and technical debt management platform that supports 10+ languages,service,Y
+code-cracker,http://code-cracker.github.io/,"An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.",csharp,N
+Codeac,https://www.codeac.io?ref=awesome-static-analysis,"Automated code review tool integrates with GitHub, Bitbucket and GitLab (even self-hosted). Available for JavaScript, TypeScript, Python, Ruby, Go, PHP, Java, Docker, and more. (open-source free)","ci, container, go, java, javascript, php, python, ruby, service, typescript",Y
+codeburner,http://groupon.github.io/codeburner/,Provides a unified interface to sort and act on the issues it finds,"c, cpp, java, javascript, meta, php",N
+codechecker,https://codechecker.readthedocs.io/en/latest/,A defect database and viewer extension for the Clang Static Analyzer with web GUI,"buildtool, c, cpp",N
+CodeFactor,https://codefactor.io,"Static Code Analysis for C#, C, C++, CoffeeScript, CSS, Groovy, GO, JAVA, JavaScript, Less, Python, Ruby, Scala, SCSS, TypeScript.","c, coffeescript, cpp, csharp, css, go, groovy, java, javascript, less, php, python, ruby, scala, typescript",Y
+CodeFactor,https://codefactor.io,Automated Code Analysis for repos on GitHub or BitBucket,service,Y
+CodeFlow,https://www.getcodeflow.com,Automated code analysis tool to deal with technical depth. Integrates with Bitbucket and Gitlab. (free for Open Source Projects,service,Y
+CodeIt.Right,https://submain.com/products/codeit.right.aspx,"CodeIt.Right&trade; provides a fast, automated way to ensure that your source code adheres to (your) predefined design and style guidelines as well as best coding practices.","csharp, vbnet",Y
+Codelyzer,http://codelyzer.com/,A set of tslint rules for static code analysis of Angular 2 TypeScript projects,typescript,N
+CodeNarc,https://codenarc.github.io/CodeNarc/,"A static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices.",groovy,N
+CodePatrol,https://cyber-security.claranet.fr/en/codepatrol,"Automated SAST code reviews driven by security, supports 15+ languages and includes security training.","ci, csharp, javascript, java, php, service, security",Y
+Codepeer,http://www.adacore.com/codepeer,Detects run-time and logic errors,ada,Y
+CodeRush,https://www.devexpress.com/products/coderush/,"Code creation, debugging, navigation, refactoring, analysis and visualization tools that use the Roslyn engine in Visual Studio 2015 and up.","aspnet, csharp, dotnet",Y
+CodeScene,https://empear.com/,"CodeScene prioritizes technical debt, finds social patterns and identifies hidden risks in your code.","c, cpp, csharp, elixir, go, groovy, java, javascript, kotlin, perl, php, python, typescript",Y
+CodeSonar from GrammaTech,https://www.grammatech.com/products/codesonar,"Advanced, whole program, deep path, static analysis of C and C++ with easy-to-understand explanations and code and path visualization.","c, cpp",Y
+codespell,https://github.com/codespell-project/codespell,Check code for common misspellings,writing,N
+coffeelint,http://www.coffeelint.org/,A style checker that helps keep CoffeeScript code clean and consistent,coffeescript,N
+CogniCrypt,https://www.eclipse.org/cognicrypt/,Checks Java source and byte code for incorrect uses of cryptographic APIs,java,N
+cohesion,https://github.com/mschwager/cohesion,A tool for measuring Python class cohesion,python,N
+collector,https://github.com/banyanops/collector,"Run arbitrary scripts inside containers, and gather useful information.",container,N
+complexity-report,https://github.com/jared-stilwell/complexity-report,Software complexity analysis for JavaScript projects,javascript,N
+cookstyle,https://docs.chef.io/cookstyle.html,Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef cookbooks,configmanagement,N
+Corrode,https://github.com/jameysharp/corrode,Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors. Superseded by C2Rust,"c, cpp, rust",N
+Coverity,https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html,"Synopsys Coverity supports 20 languages and over 70 frameworks including Ruby on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++, C#, VB.NET.","c, cpp, csharp, fortran, java, javascript, php, python, rails, scala, typescript, vbnet, security",Y
+cppcheck,http://cppcheck.sourceforge.net/,Static analysis of C/C++ code,"c, cpp",N
+CppDepend,https://www.cppdepend.com,"Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.","c, cpp",Y
+cpplint,https://github.com/google/styleguide/tree/gh-pages/cpplint,Automated C++ checker that follows Google's style guide.,"c, cpp",N
+cqc,https://github.com/xcatliu/cqc,"Check your code quality for js, jsx, vue, css, less, scss, sass and styl files.","javascript, jsx, vue, css, less",N
+cqmetrics,https://github.com/dspinellis/cqmetrics,Quality metrics for C code,"c, cpp",N
+credo,http://credo-ci.org/,A static code analysis tool with a focus on code consistency and teaching,elixir,N
+crystal,https://crystal-lang.org/,The Crystal compiler has built-in linting functionality,crystal,N
+CScout,https://www.spinellis.gr/cscout/,Complexity and quality metrics for for C and C preprocessor code,"c, cpp",N
+CSharpEssentials,https://github.com/DustinCampbell/CSharpEssentials,"C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features.",csharp,N
+CSS Stats,https://cssstats.com/,Potentially interesting stats on stylesheets,css,N
+CSScomb,https://github.com/csscomb/csscomb.js,A coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent,"css, formatter",N
+CSSLint,http://csslint.net/,Does basic syntax checking and finds problematic patterns or signs of inefficiency,css,N
+cwe_checker,https://github.com/fkie-cad/cwe_checker,cwe_checker finds vulnerable patterns in binary executables,binary,N
+cyclocomp,https://github.com/MangoTheCat/cyclocomp,Quantifies the cyclomatic complexity of R functions / expressions,r,N
+D-scanner,https://github.com/dlang-community/D-Scanner,D-Scanner is a tool for analyzing D source code,dlang,N
+Linter for dart,https://dart-lang.github.io/linter/,Style linter for Dart,dart,N
+dagda,https://github.com/eliasgranderubio/dagda,Perform static analysis of known vulnerabilities in docker images/containers,container,N
+dawnscanner,https://github.com/thesp0nge/dawnscanner,"A static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks.","ruby, rails",N
+deadcode,https://github.com/tsenart/deadcode,Finds unused code,go,N
+DeepScan,https://deepscan.io,An analyzer for JavaScript which targets runtime errors and quality issues rather than coding conventions,javascript,Y
+DeepCode,https://www.deepcode.ai/,"DeepCode finds bugs, security vulnerabilities, performance and API issues based on AI. DeepCode's speed of analysis allow us to analyse your code in real time and deliver results when you hit the save button in your IDE. Supported languages are Java, C/C++, JavaScript, Python, and TypeScript. Integrations with GitHub, BitBucket and Gitlab.","c, cpp, java, python, javascript, typescript",Y
+DeepSource,https://deepsource.io/,"In-depth static analysis to find issues in verticals of bug risks, security, anti-patterns, performance, documentation and style. Native integrations with GitHub, GitLab and Bitbucket. Less than 5% false positives.","go, python, ruby, javascript, sql, container, configmanagement",Y
+dennis,https://github.com/willkg/dennis/,A set of utilities for working with PO files to ease development and improve quality,translation,N
+deno_lint,https://github.com/denoland/deno_lint,Official linter for Deno,deno,N
+Depends,https://github.com/multilang-depends/depends,"Analyses the comprehensive dependencies of code elements for Java, C/C++, Ruby.","c, cpp, java, php",N
+dephpend,https://dephpend.com/,Dependency analysis tool,php,N
+deprecation-detector,https://github.com/sensiolabs-de/deprecation-detector,Finds usages of deprecated (Symfony) code,php,N
+deptrac,https://github.com/sensiolabs-de/deptrac,Enforce rules for dependencies between software layers,php,N
+Designite,http://www.designite-tools.com,"Designite supports detection of various architecture, design, and implementation smells, computation of various code quality metrics, and trend analysis.",csharp,Y
+DesigniteJava,http://www.designite-tools.com/designitejava,"DesigniteJava supports detection of various architecture, design, and implementation smells along with computation of various code quality metrics.",java,Y
+DesignPatternDetector,https://github.com/Halleck45/DesignPatternDetector,Detection of design patterns in PHP code,php,N
+detekt,https://detekt.github.io/detekt/,Static code analysis for Kotlin code,kotlin,N
+DevSkim,https://github.com/Microsoft/DevSkim,"Inline, realtime security analysis. Works with multiple programming languages and IDEs (VS, VS Code, Sublime Text, ...).",ide,N
+DevSkim,https://github.com/microsoft/devskim,"Regex-based static analysis tool for Visual Studio, VS Code, and Sublime Text - C/C++, C#, PHP, ASP, Python, Ruby, Java, and others.","asp, c, cpp, ide, java, php, python, ruby",N
+dingo-hunter,https://github.com/nickng/dingo-hunter,Static analyser for finding deadlocks in Go,go,N
+Dlint,https://github.com/dlint-py/dlint,A tool for ensuring Python code is secure,python,N
+Docker Label Inspector,https://github.com/garethr/docker-label-inspector,Lint and validate Dockerfile labels,container,N
+dogsled,https://github.com/alexkohler/dogsled,Finds assignments/declarations with too many blank identifiers,go,N
+dotenv-linter,https://dotenv-linter.readthedocs.io/en/latest/,Linting dotenv files like a charm,configfile,N
+dupl,https://github.com/mibk/dupl,Reports potentially duplicated code,go,N
+EasyCodingStandard,https://www.tomasvotruba.com/blog/2017/05/03/combine-power-of-php-code-sniffer-and-php-cs-fixer-in-3-lines/,Combine [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer).,php,N
+effective_dart,ttps://pub.dev/packages/effective_dar,Linter rules corresponding to the guidelines in Effective Dart,dart,N
+electrolysis,http://kha.github.io/electrolysis/,A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover,rust,N
+elm-analyse,https://stil4m.github.io/elm-analyse/,"A tool that allows you to analyse your Elm code, identify deficiencies and apply best practices.",elm,N
+elm-review,https://package.elm-lang.org/packages/jfmengels/elm-review/latest/,"Analyzes whole Elm projects, with a focus on shareable and custom rules written in Elm that add guarantees the Elm compiler doesn't give you.",elm,N
+elvis,https://github.com/inaka/elvis,Erlang Style Reviewer,erlang,N
+ember-template-lint,https://github.com/ember-template-lint/ember-template-lint,Linter for Ember or Handlebars templates,template,N
+Embold,https://embold.io,"Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more.","java, c, cpp, csharp, javascript, typescript, python, go, kotlin, service",Y
+errcheck,https://github.com/kisielk/errcheck,Check that error return values are used,go,N
+Error-prone,https://errorprone.info/,Catch common Java mistakes as compile-time errors,java,N
+ESBMC,http://esbmc.org/,"ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs.","c, cpp",N
+escomplex,https://github.com/jared-stilwell/escomplex,Software complexity analysis of JavaScript-family abstract syntax trees,javascript,N
+eslint,https://eslint.org/,A fully pluggable tool for identifying and reporting on patterns in JavaScript,javascript,N
+ESLint,https://github.com/typescript-eslint/typescript-eslint,An extensible linter for the TypeScript language,typescript,N
+Esprima,https://esprima.org/,ECMAScript parsing infrastructure for multipurpose analysis,javascript,N
+exakat,https://www.exakat.io/,An automated code reviewing engine for PHP,"ci, php",N
+fb-contrib,http://fb-contrib.sourceforge.net/,A plugin for FindBugs with additional bug detectors,java,N
+Find Security Bugs,https://find-sec-bugs.github.io/,"The SpotBugs plugin for security audits of Java web applications and Android applications. (Also work with Kotlin, Groovy and Scala projects","groovy, java, kotlin, scala",N
+Fix Insight,https://www.tmssoftware.com/site/fixinsight.asp,A free IDE Plugin for static code analysis. A _Pro_ edition includes a command line tool for automation purposes,delphi,Y
+flake8,https://github.com/PyCQA/flake8,"A wrapper around `pyflakes`, `pycodestyle` and `mccabe`.","meta, python",N
+flawfinder,https://www.dwheeler.com/flawfinder/,Finds possible security weaknesses,"c, cpp",N
+flay,https://ruby.sadi.st/Flay.html,Flay analyzes code for structural similarities,ruby,N
+flen,https://github.com/lafolle/flen,Get info on length of functions in a Go package,go,N
+flint++,https://github.com/JossWhittle/FlintPlusPlus,"Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.","c, cpp",N
+flog,https://ruby.sadi.st/Flog.html,"Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.",ruby,N
+flow,https://flow.org/,A static type checker for JavaScript,javascript,N
+hegel,https://hegel.js.org/,A static type checker for JavaScript with a bias on type inference and strong type systems,javascript,N
+FlowDroid,https://github.com/secure-software-engineering/FlowDroid,Static taint analysis tool for Android applications,mobile,N
+foodcritic,http://www.foodcritic.io/,A lint tool that checks Chef cookbooks for common problems,configmanagement,N
+forbidden-apis,https://github.com/policeman-tools/forbidden-apis,Detects and forbids invocations of specific method/class/field (like reading from a text stream without a charset). Maven/Gradle/Ant compatible,java,N
+Fortify,https://software.microfocus.com/en-us/products/static-code-analysis-sast/overview,"A commercial static analysis platform that supports the scanning of C/C++, C#, VB.NET, VB6, ABAP/BSP, ActionScript, Apex, ASP.NET, Classic ASP, VB Script, Cobol, ColdFusion, HTML, Java, JS, JSP, MXML/Flex, Objective-C, PHP, PL/SQL, T-SQL, Python (2.6, 2.7), Ruby (1.9.3), Swift, Scala, VB, and XML.","abap, actionscript, apex, aspnet, c, cobol, coldfusion, cpp, csharp, html, java, javascript, jsp, objectivec, php, plsql, python, ruby, scala, swift, tsql, vbasic, vbnet, vbscript, xml, security",Y
+Frama-C,http://frama-c.com/,A sound and extensible static analyzer for C code,"c, cpp",N
+Frink,https://catless.ncl.ac.uk/Programs/Frink/,"A Tcl formatting and static check program (can prettify the program, minimise, obfuscate or just sanity check it).",tcl,N
+FSharpLint,http://fsprojects.github.io/FSharpLint/,Lint tool for F#.,fsharp,N
+gawk --lint,https://www.gnu.org/software/gawk/manual/html_node/Options.html,Warns about constructs that are dubious or nonportable to other awk implementations,awk,N
+Gendarme,https://www.mono-project.com/docs/tools+libraries/tools/gendarme/,Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET),csharp,N
+gherkin-lint,https://github.com/vsiakka/gherkin-lint,A linter for the Gherkin-Syntax written in Javascript,gherkin,N
+Ghidra,https://ghidra-sre.org,A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity missio,binary,N
+Gitleaks,ttps://github.com/zricethezav/gitleak,"A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos",security,N
+ShiftLeft Scan,https://slscan.io,Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines,"apex, shell, go, groovy, ide, java, jsp, json, kotlin, scala, container, nodejs, configmanagement, php, plsql, python, ruby, rust, vbasic, yaml",N
+Super-Linter,https://github.com/github/super-linter,Combination of multiple linters to install as a GitHub Action.,"coffeescript, container, go, javascript, json, markdown, perl, python, ruby, shell, configmanagement, typescript, xml, yaml",N
+gixy,https://github.com/yandex/gixy,A tool to analyze Nginx configuration. The main goal is to prevent misconfiguration and automate flaw detection,configfile,N
+Go Meta Linter,https://github.com/alecthomas/gometalinter,Concurrently run Go lint tools and normalise their output. Use `golangci-lint` for new projects.,"meta, go",N
+go tool vet --shadow,https://golang.org/cmd/vet/#hdr-Shadowed_variables,Reports variables that may have been unintentionally shadowed,go,N
+go vet,https://golang.org/cmd/vet/,Examines Go source code and reports suspicious,go,N
+go-consistent,https://github.com/Quasilyte/go-consistent,Analyzer that helps you to make your Go programs more consistent,go,N
+go-critic,https://github.com/go-critic/go-critic,Go source code linter that maintains checks which are currently not implemented in other linters,go,N
+go/ast,https://golang.org/pkg/go/ast/,Package ast declares the types used to represent syntax trees for Go packages,go,N
+gochecknoglobals,https://github.com/leighmcculloch/gochecknoglobals,Checks that no globals are present,go,N
+goconst,https://github.com/jgautheron/goconst,Finds repeated strings that could be replaced by a constant,go,N
+gocyclo,https://github.com/fzipp/gocyclo,Calculate cyclomatic complexities of functions in Go source code,go,N
+gofmt -s,https://golang.org/cmd/gofmt/,Checks if the code is properly formatted and could not be further simplified,go,N
+goimports,https://pkg.go.dev/golang.org/x/tools/cmd/goimports,Checks missing or unreferenced package imports,go,N
+GolangCI-Lint,https://golangci-lint.run/,Alternative to `Go Meta Linter`: GolangCI-Lint is a linters aggregator.,go,N
+golint,https://github.com/golang/lint,Prints out coding style mistakes in Go source code,go,N
+Goodcheck,https://sider.github.io/goodcheck/,Regexp based customizable linter,"c, cpp, java, php",N
+goodpractice,http://mangothecat.github.io/goodpractice/,Analyses the source code for R packages and provides best-practice recommendations,r,N
+google-java-format,https://github.com/google/google-java-format,Google Style Reformat,java,N
+goreporter,https://github.com/360EntSecGroup-Skylar/goreporter,Concurrently runs many linters and normalises their output to a report,"meta, go",N
+goroutine-inspect,https://github.com/linuxerwang/goroutine-inspect,An interactive tool to analyze Golang goroutine dump,go,N
+gosec (gas),https://securego.io/,Inspects source code for security problems by scanning the Go AST,go,N
+gotype,https://pkg.go.dev/golang.org/x/tools/cmd/gotype,Syntactic and semantic analysis similar to the Go compiler,go,N
+GraphMyCSS.com,https://graphmycss.com,CSS Specificity Graph Generator,css,N
+graudit,http://www.justanotherhacker.com/,Grep rough audit - source code auditing tool.,"c, cpp, php, asp, csharp, java, perl, python, ruby",N
+GrumPHP,https://github.com/phpro/grumphp,Checks code on every commit,php,N
+grunt-bootlint,https://github.com/twbs/grunt-bootlint,"A Grunt wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects",html,N
+gulp-bootlint,https://github.com/tschortsch/gulp-bootlint,"A gulp wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects",html,N
+haml-lint,https://github.com/sds/haml-lint,Tool for writing clean and consistent HAML,template,N
+Haskell Dockerfile Linter,https://github.com/lukasmartinelli/hadolint,A smarter Dockerfile linter that helpsyou build best practice Docker images,container,N
+Haxe Checkstyle,http://haxecheckstyle.github.io/docs/haxe-checkstyle/home.html,A static analysis tool to help developers write Haxe code that adheres to a coding standard,haxe,N
+Helix QAC,https://www.perforce.com/products/helix-qac,"Enterprise-grade static analysis for embedded software. Supports MISRA, CERT, and AUTOSAR coding standards.","c, cpp",Y
+herbie,https://github.com/mcarton/rust-herbie-lint,Adds warnings or errors to your crate when using a numerically unstable floating point expression,rust,N
+HLint,https://github.com/ndmitchell/hlint,HLint is a tool for suggesting possible improvements to Haskell code,haskell,N
+Hopper,https://github.com/cuplv/hopper,A static analysis tool written in scala for languages that run on JVM,"groovy, java, kotlin, scala",N
+Hound CI,https://houndci.com/,"Comments on style violations in GitHub pull requests. Supports Coffeescript, Go, HAML, JavaScript, Ruby, SCSS and Swift.","coffeescript, go, haml, javascript, ruby, css, swift",N
+HTML Inspector,https://github.com/philipwalton/html-inspector,HTML Inspector is a code quality tool to help you and your team write better markup,html,N
+HTML Tidy,http://www.html-tidy.org/,Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards,html,N
+HTMLHint,https://htmlhint.com/,A Static Code Analysis Tool for HTML,html,N
+HuntBugs,https://github.com/amaembo/huntbugs,Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs,java,N
+i-Code CNES for Fortran,https://github.com/lequal/i-CodeCNES,"An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.",fortran,N
+i-Code CNES for Shell,https://github.com/lequal/i-CodeCNES,An open source static code analysis tool for Shell and Fortran (77 and 90),shell,N
+iblessing,ttps://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.htm," iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining","mobile, security",N
+IDA Free,https://www.hex-rays.com/products/ida/support/download_freeware/,Binary code analysis tool,binary,Y
+IKOS,https://github.com/nasa-sw-vnv/ikos,A sound static analyzer for C/C++ code based on LLVM,"c, cpp",N
+imhotep,https://github.com/justinabrahms/imhotep,Comment on commits coming into your repository and check for syntactic errors and general lint warnings,"meta, buildtool, python, ruby, javascript",N
+include-gardener,https://github.com/feddischson/include_gardener,A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.,"c, cpp",N
+include-gardener,https://github.com/feddischson/include_gardener,A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.,python,N
+include-gardener,https://github.com/feddischson/include_gardener,A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.,ruby,N
+ineffassign,https://github.com/gordonklaus/ineffassign,Detect ineffectual assignments in Go code,go,N
+Infer,https://fbinfer.com/,"A static analyzer for Java, C and Objective-C","c, cpp, java, objectivec",N
+InsiderSec,https://insidersec.io/,"A open source Static Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js).","java, mobile, kotlin, swift, dotnet, javascript, nodejs, csharp, security",N
+IntelliJ IDEA,https://www.jetbrains.com/idea/,"Comes bundled with a lot of inspections for Java and Kotlin and includes tools for refactoring, formatting and more.",ide,Y
+interfacer,https://github.com/mvdan/interfacer,Suggest narrower interfaces that can be used,go,N
+Jakstab,https://github.com/jkinder/jakstab,"Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.",binary,N
+JArchitect,https://www.jarchitect.com,"Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.",java,Y
+JBMC,https://www.cprover.org/jbmc/,"Bounded model-checker for Java (bytecode), verifies user-defined assertions, standard assertions, several coverage metric analyses.",java,N
+jedi,https://jedi.readthedocs.io/en/latest/,Autocompletion/static analysis library for Python,python,N
+Joern,ttps://joern.io,Open-source code analysis platform for C/C++ based on code property graph,"c, cpp",N
+jshint,https://jshint.com/about/,Detect errors and potential problems in JavaScript code and enforce your team's coding conventions.,javascript,N
+JSLint,https://github.com/douglascrockford/JSLint,The JavaScript Code Quality Tool,javascript,N
+JSPrime,http://dpnishant.github.io/jsprime/,Static security analysis tool,javascript,N
+Kiuwan,https://www.kiuwan.com/code-security-sast/,"Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamless integration in your SDLC. Python, C\\C++, Java, C#, PHP and more.","c, cpp, go, java, javascript, kotlin, php, python, scala, service, swift",Y
+Klocwork,https://www.perforce.com/products/klocwork,"Quality and Security Static analysis for C/C++, Java and C#.","c, cpp, csharp, java",Y
+ktlint,https://ktlint.github.io/,An anti-bikeshedding Kotlin linter with built-in formatter,"kotlin, formatter",N
+kube-score,https://kube-score.com/,Static code analysis of your Kubernetes object definitions,container,N
+kubeval,https://kubeval.instrumenta.dev/,Validates your Kubernetes configuration files and supports multiple Kubernetes versions,container,N
+lacheck,https://www.ctan.org/pkg/lacheck,A tool for finding common mistakes in LaTeX documents,latex,N
+TeXLab,https://texlab.netlify.app,"A Language Server Protocol implementation for TeX/LaTeX, including lint capabilities",latex,N
+Landscape,https://landscape.io/,Static code analysis for Python,service,Y
+languagetool,https://languagetool.org/,Style and grammar checker for 25+ languages. It finds many errors that a simple spell checker cannot detect,writing,N
+laser,https://github.com/michaeledgar/laser,Static analysis and style linter for Ruby code,ruby,N
+Qualys Container Security,https://www.qualys.com/apps/container-security/,Container native application protection to provide visibility and control of containerized applications,"container, service",Y
+LDRA,https://ldra.com,"A tool suite including static analysis (TBVISION) to various standards including MISRA C & C++, JSF++ AV, CWE, CERT C, CERT C++ & Custom Rules.","c, cpp",Y
+LGTM.com,https://lgtm.com/,Deep code analysis for GitHub and Bitbucket to find security vulnerabilities and critical code quality issues (using Semmle QL). Automatic code review for pull requests; free for public repositories,"ci, service",Y
+LibVCS4j,https://github.com/uni-bremen-agst/libvcs4j,A Java library that allows existing tools to analyse the evolution of software systems by providing a common API for different version control systems and issue trackers,support,N
+lint,ttps://github.com/passsy/dart-lin,"An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricte",dart,N
+linter,https://github.com/HairyFotr/linter,"Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems.",scala,N
+linter-rust,https://github.com/AtomLinter/linter-rust,"Linting your Rust-files in Atom, using rustc and cargo.",rust,N
+lintian,https://lintian.debian.org/,Static analysis tool for Debian packages,package,N
+lintr,https://github.com/jimhester/lintr,Static Code Analysis for R,r,N
+linty fresh,https://github.com/lyft/linty_fresh,Parse lint errors and report them to Github as comments on a pull request,python,N
+lll,https://github.com/walle/lll,Report long lines,go,N
+luacheck,https://github.com/mpeterv/luacheck,A tool for linting and static analysis of Lua code,lua,N
+maligned,https://github.com/mdempsky/maligned,Detect structs that would take less memory if their fields were sorted,go,N
+Manalyze,https://github.com/JusticeRage/Manalyze,"A static analyzer, which checks portable executables for malicious content.",binary,N
+markdownlint,https://github.com/DavidAnson/markdownlint,Node.js -based style checker and lint tool for Markdown/CommonMark files,markdown,N
+mccabe,https://pypi.org/project/mccabe/,Check McCabe complexity,python,N
+mdl,https://github.com/mivok/markdownlint,A tool to check Markdown files and flag style issues,markdown,N
+MIRAI,https://github.com/facebookexperimental/MIRAI,"And abstract interpreter operating on Rust's mid-level intermediate language, and providing warnings based on taint analysis.",rust,N
+misspell,https://github.com/client9/misspell,Finds commonly misspelled English words,go,N
+misspell-fixer,https://github.com/vlajos/misspell-fixer,"Quick tool for fixing common misspellings, typos in source code.",writing,N
+Misspelled Words In Context,http://jwilk.net/software/mwic,A spell-checker that groups possible misspellings and shows them in their contexts,writing,N
+mlint,https://mathworks.com/help/matlab/ref/mlint.html,Check MATLAB code files for possible problems,matlab,Y
+Mondrian,http://trismegiste.github.io/Mondrian/,A set of static analysis and refactoring tools which use graph theory,php,N
+multilint,https://github.com/adamchainz/multilint,"A wrapper around `flake8`, `isort` and `modernize`.","python, meta",N
+mypy,http://www.mypy-lang.org/,"A static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType).",python,N
+mythril,https://github.com/ConsenSys/mythril,"A symbolic execution framework with batteries included, can be used to find and exploit vulnerabilities in smart contracts automatically",smart,N
+MythX,https://mythx.io,"MythX is an easy to use analysis platform which integrates several analysis methods like fuzzing, symbolic execution and static analysis to find vulnerabilities with high precision",smart,Y
+Nagelfar,https://sourceforge.net/projects/nagelfar/,A static syntax checker for Tcl,tcl,N
+nakedret,https://github.com/alexkohler/nakedret,Finds naked returns,go,N
+nargs,https://github.com/alexkohler/nargs,Finds unused arguments in function declarations,go,N
+NDepend,http://www.ndepend.com/,"Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.",csharp,Y
+Nitpick CI,https://nitpick-ci.com,Automated PHP code review,"ci, service",Y
+NodeJSScan,https://opensecurity.in/,NodeJsScan is a static security code scanner for Node.js applications,"javascript, nodejs",N
+NullAway,https://github.com/uber/NullAway,Type-based null-pointer checker with low build-time overhead; an [Error Prone](http://errorprone.info/) plugin.,java,N
+oclint,http://oclint.org/,"A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C.","c, cpp, objectivec",N
+OWASP Dependency Check,https://owasp.org/www-project-dependency-check/,"Checks dependencies for known, publicly disclosed, vulnerabilities.",java,N
+paprika,https://github.com/GeoffreyHecht/paprika,A toolkit to detect some code smells in analyzed Android applications,mobile,N
+Oversecured,https://oversecured.com/,"A mobile app vulnerability scanner, designed for security researchers and bug bounty hackers. It also allows integrations into the DevOps process for businesses","mobile, security",Y
+parallel-lint,https://github.com/php-parallel-lint/PHP-Parallel-Lint,This tool checks syntax of PHP files faster than serial check with a fancier output,php,N
+Parker,https://github.com/katiefenn/parker,Stylesheet analysis tool,css,N
+Parse,https://github.com/psecio/parse,A Static Security Scanner,php,N
+Pascal Analyzer,https://peganza.com/products_pal.html,A static code analysis tool with numerous reports. A free _Lite_ version is available with limited reporting,delphi,Y
+Pascal Expert,https://peganza.com/products_pex.html,IDE plugin for code analysis. Includes a subset of Pascal Analyzer reporting capabilities and is available for Delphi versions 2007 and later,delphi,Y
+pdepend,https://pdepend.org/,Calculates software metrics like cyclomatic complexity for PHP code,php,N
+pelusa,https://github.com/codegram/pelusa,Static analysis Lint-type tool to improve your OO Ruby code,ruby,N
+"""Perl",https://metacpan.org/pod/Perl::Critic,Critique Perl source code for best-practices,perl,N
+pfff,https://github.com/facebookarchive/pfff/wiki/Main,"Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.","c, java, php, javascript, html, css, cpp, rust, csharp, erlang, haskell, python",N
+phan,https://github.com/phan/phan/wiki,A modern static analyzer from etsy,php,N
+Phasar,https://phasar.org/,A LLVM-based static analysis framework which comes with a taint and type state analysis,"c, cpp",N
+PHP Architecture Tester,https://github.com/carlosas/phpat,Easy to use architecture testing tool for PHP,php,N
+PHP Assumptions,https://github.com/rskuipers/php-assumptions,Checks for weak assumptions,php,N
+PHP Coding Standards Fixer,https://cs.symfony.com/,"Fixes your code according to standards like PSR-1, PSR-2, and the Symfony standard.",php,N
+PHP Insights,https://phpinsights.com/,,php,N
+Php Inspections (EA Extended),https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-,A Static Code Analyzer for PHP,php,N
+PHP Refactoring Browser,http://qafoolabs.github.io/php-refactoring-browser/,Refactoring helper,php,N
+PHP Semantic Versioning Checker,https://github.com/tomzx/php-semver-checker,Suggests a next version according to semantic versioning,php,N
+PHP-Parser,https://github.com/nikic/PHP-Parser,A PHP parser written in PHP,php,N
+PHP-Token-Reflection,https://github.com/Andrewsville/PHP-Token-Reflection,Library emulating the PHP internal reflection,php,N
+php7cc,https://github.com/sstalle/php7cc,PHP 7 Compatibility Checker,php,N
+php7mar,https://github.com/Alexia/php7mar,Assist developers in porting their code quickly to PHP 7,php,N
+PHP_CodeSniffer,https://pear.php.net/package/PHP_CodeSniffer,Detects violations of a defined set of coding standards,php,N
+phpca,https://github.com/wapmorgan/PhpCodeAnalyzer,Finds usage of non-built-in extensions,php,N
+phpcf,http://wapmorgan.github.io/PhpCodeFixer/,Finds usage of deprecated PHP features,php,N
+phpcpd,https://github.com/sebastianbergmann/phpcpd,Copy/Paste Detector for PHP code,php,N
+phpdcd,https://github.com/sebastianbergmann/phpdcd,Dead Code Detector (DCD) for PHP code,php,N
+PhpDependencyAnalysis,https://mamuz.github.io/PhpDependencyAnalysis/,Builds a dependency graph for a project,php,N
+phpdoc-to-typehint,https://github.com/dunglas/phpdoc-to-typehint,Add scalar type hints and return types to existing PHP projects using PHPDoc annotations,php,N
+phpDocumentor,https://www.phpdoc.org/,Analyzes PHP source code to generate documentation,php,N
+phploc,https://github.com/sebastianbergmann/phploc,A tool for quickly measuring the size and analyzing the structure of a PHP project,php,N
+PHPMD,https://phpmd.org/,Finds possible bugs in your code,php,N
+PhpMetrics,http://www.phpmetrics.org/,Calculates and visualizes various code quality metrics,php,N
+phpmnd,https://github.com/povils/phpmnd,Helps to detect magic numbers,php,N
+PHPQA,https://edgedesigncz.github.io/phpqa/,"A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics).",php,N
+phpqa - jakzal,https://github.com/jakzal/phpqa,Many tools for PHP static analysis in one container,php,N
+phpqa - jmolivas,https://github.com/jmolivas/phpqa,PHPQA all-in-one Analyzer CLI tool,php,N
+phpsa,https://github.com/ovr/phpsa,Static analysis tool for PHP,php,N
+php-speller,https://github.com/mekras/php-speller,PHP spell check library,php,N
+PHPStan,https://phpstan.org/,PHP Static Analysis Tool - discover bugs in your code without running it,php,N
+plato,https://github.com/es-analysis/plato,Visualize JavaScript source complexity,javascript,N
+es6-plato,https://github.com/the-simian/es6-plato,Visualize JavaScript (ES6) source complexity,javascript,N
+PMD,https://pmd.github.io/,"A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others.","java, javascript, plsql, scala, xml",N
+Polymer-analyzer,https://github.com/Polymer/tools/tree/master/packages/analyzer,A static analysis framework for Web Components,"html, javascript",N
+Polyspace Bug Finder,https://www.mathworks.com/products/polyspace-bug-finder.html,"Identifies run-time errors, concurrency issues, security vulnerabilities, and other defects in C and C++ embedded software.","c, cpp",Y
+Polyspace Code Prover,https://www.mathworks.com/products/polyspace-code-prover.html,"Provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in C and C++ source code.","c, cpp",Y
+Polyspace for Ada,https://www.mathworks.com/products/polyspace-ada.html,"Provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code.",ada,Y
+portlint,https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports,A verifier for FreeBSD and DragonFlyBSD port directories,"make, buildtool",N
+PostCSS,https://postcss.org/,"A tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more",css,N
+pre-commit,https://pre-commit.com/,A framework for managing and maintaining multi-language pre-commit hooks,"c, cpp, java, php",N
+prealloc,https://github.com/alexkohler/prealloc,Finds slice declarations that could potentially be preallocated,go,N
+Prettier,https://prettier.io/,An opinionated code formatter,"javascript, typescript, html, formatter",N
+Primitive Erlang Security Tool (PEST),https://github.com/okeuday/pest,A tool to do a basic scan of Erlang source code and report any function calls that may cause Erlang source code to be insecure,erlang,N
+Progpilot,https://github.com/designsecurity/progpilot,A static analysis tool for security purposes,php,N
+Project Wallace CSS Analyzer,https://www.projectwallace.com/,"Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com).",css,N
+Pronto,https://github.com/prontolabs/pronto,"Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaScript, PHP, Ruby and more.","c, ci, cpp, elixir, java, javascript, php, ruby, ci",N
+proselint,http://proselint.com/,A linter for English prose with a focus on writing style instead of grammar,writing,N
+prospector,https://github.com/PyCQA/prospector,"A wrapper around `pylint`, `pep8`, `mccabe` and others.","python, meta",N
+protolint,https://github.com/yoheimuta/protolint,Pluggable linter and fixer to enforce Protocol Buffer style and conventions,protobuf,N
+Psalm,https://psalm.dev/,Static analysis tool for finding type errors in PHP applications,php,N
+PT.PM,https://github.com/PositiveTechnologies/PT.PM,"An engine for searching patterns in the source code, based on Unified AST or UST. At present time C#, Java, PHP, PL/SQL, T-SQL, and JavaScript are supported. Patterns can be described within the code or using a DSL.","csharp, java, php, plsql, tsql, javascript",N
+PullRequest,https://www.pullrequest.com,Code review as a service with built-in static analysis,"ci, service",Y
+Puma Scan,https://pumasecurity.io/,"Puma Scan provides real time secure code analysis for common vulnerabilities (XSS, SQLi, CSRF, LDAPi, crypto, deserialization, etc.) as development teams write code in Visual Studio.","csharp, ide",N
+Puppet Lint,https://github.com/rodjek/puppet-lint,Check that your Puppet manifests conform to the style guide,configmanagement,N
+PVS-Studio,https://www.viva64.com/en/pvs-studio/,"A ([conditionally free](https://www.viva64.com/en/b/0614/) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, MISRA and CERT coding standards.","c, cpp, csharp, java",Y
+py-find-injection,https://github.com/uber/py-find-injection,Find SQL injection vulnerabilities in Python code,python,N
+pycodestyle,https://pycodestyle.pycqa.org/en/latest/,(Formerly `pep8`) Check Python code against some of the style conventions in PEP 8.,python,N
+pydocstyle,http://www.pydocstyle.org,Check compliance with Python docstring conventions,python,N
+pyflakes,https://pypi.org/project/pyflakes/,Check Python source files for errors,python,N
+pylint,http://pylint.pycqa.org/en/latest/,"Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker).",python,N
+pyre-check,https://pyre-check.org/,"A fast, scalable type checker for large Python codebases.",python,N
+pyright,https://github.com/Microsoft/pyright,"Static type checker for Python, created to address gaps in existing tools like mypy.",python,N
+pyroma,https://github.com/regebro/pyroma,"Rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved.",python,N
+PyT - Python Taint,https://github.com/python-security/pyt,A static analysis tool for detecting security vulnerabilities in Python web applications,python,N
+pytype,https://google.github.io/pytype/,A static type analyzer for Python code,python,N
+Pysa,https://pyre-check.org/docs/pysa-basics.html,A tool based on Facebook's pyre-check to identify potential security issues in Python code identified with taint analysis,python,N
+Qafoo Quality Analyzer,https://github.com/Qafoo/QualityAnalyzer,Visualizes metrics and source code,php,N
+qark,https://github.com/linkedin/qark,Tool to look for several security related Android application vulnerabilities,mobile,N
+quality,https://github.com/jden/quality,Zero configuration code and module linting,javascript,N
+quality,https://github.com/apiology/quality,"Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.","ci, ruby",N
+QuantifiedCode,https://github.com/quantifiedcode/quantifiedcode,Automated code review & repair,"ci, service",N
+Querly,https://github.com/soutaro/querly,Pattern Based Checking Tool for Ruby,ruby,N
+qulice,https://www.qulice.com/,"Combines a few (pre-configured) static analysis tools (checkstyle, PMD, Findbugs, ...).",java,N
+radon,https://radon.readthedocs.io/en/latest/,A Python tool that computes various metrics from the source code,python,N
+Railroader,https://railroader.org/,An open source static analysis security vulnerability scanner for Ruby on Rails applications,ruby,N
+reek,https://github.com/troessner/reek,Code smell detector for Ruby,ruby,N
+Refactoring Essentials,https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio,"The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.","csharp, vbnet",N
+relint,https://github.com/codingjoe/relint,A static file linter that allows you to write custom rules using regular expressions (RegEx),"python, java, javascript, c, cpp, dotnet, jsx",N
+remark-lint,https://remark.js.org/,Pluggable Markdown code style linter written in JavaScript,markdown,N
+ReSharper,https://www.jetbrains.com/resharper/,"Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies.","asp, csharp, javascript, typescript, vbnet",Y
+Reshift,https://www.reshiftsecurity.com/,A source code analysis tool for detecting and managing Java security vulnerabilities,service,Y
+retire.js,http://retirejs.github.io/retire.js/,Scanner detecting the use of JavaScript libraries with known vulnerabilities,javascript,N
+Reviewdog,https://github.com/haya14busa/reviewdog,A tool for posting review comments from any linter in any code hosting service,"ci, go",N
+revive,https://revive.run/,"Fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in replacement of golint.",go,N
+RIPS,https://www.ripstech.com/,A static source code analyser for vulnerabilities in PHP scripts,"php, java, nodejs",Y
+Roslyn Analyzers,https://github.com/dotnet/roslyn-analyzers,Roslyn-based implementation of FxCop analyzers,"csharp, dotnet",N
+Roslyn Security Guard,https://security-code-scan.github.io/,"Project that focuses on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more.","csharp, vbnet",N
+Roslynator,https://github.com/JosefPihrt/Roslynator/,"A collection of 190+ analyzers and 190+ refactorings for C#, powered by Roslyn.",csharp,N
+rpmlint,https://github.com/rpm-software-management/rpmlint,Tool for checking common errors in rpm packages,package,N
+RuboCop,https://docs.rubocop.org/rubocop/,"A Ruby static code analyzer, based on the community Ruby style guide.",ruby,N
+Rubrowser,http://www.emadelsaid.com/rubrowser/,Ruby classes interactive dependency graph generator,ruby,N
+ruby-lint,http://code.yorickpeterse.com/ruby-lint/latest/,Static code analysis for Ruby,ruby,N
+rubycritic,https://github.com/whitesmith/rubycritic,A Ruby code quality reporter,ruby,N
+Rust Language Server,https://github.com/rust-lang-nursery/rls,"Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.",rust,N
+rust-analyzer,https://rust-analyzer.github.io/,"Supports functionality such as 'goto definition', type inference, symbol search, reformatting, and code completion, and enables renaming and refactorings.",rust,N
+rust-audit,ttps://github.com/Shnatsel/rust-audi,Audit Rust binaries for known bugs or security vulnerabilities. This works by embedding data about the dependency tree (Cargo.lock) in JSON format into a dedicated linker section of the compiled executable.,rust,N
+rustfix,https://github.com/rust-lang/rustfix,"Read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).",rust,N
+safesql,https://github.com/stripe/safesql,Static analysis tool for Golang that protects against SQL injections,go,N
+SandiMeter,https://rubygems.org/gems/sandi_meter,Static analysis tool for checking Ruby code for Sandi Metz' rules.,ruby,N
+sass-lint,https://github.com/sasstools/sass-lint,A Node-only Sass linter for both sass and scss syntax,css,N
+Scalastyle,http://www.scalastyle.org,Scalastyle examines your Scala code and indicates potential problems with it,scala,N
+scan-build,https://clang-analyzer.llvm.org/scan-build.html,Analyzes C/C++ code using LLVM at compile-time,"c, cpp",N
+scapegoat,https://github.com/sksamuel/scapegoat,Scala compiler plugin for static code analysis,scala,N
+Scrutinizer,https://scrutinizer-ci.com/,A proprietary code quality checker that can be integrated with GitHub,service,Y
+scsslint,https://github.com/brigade/scss-lint,Linter for SCSS files,css,N
+Security Code Scan,https://security-code-scan.github.io/,"Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc. Integrates into Visual Studio 2015 and newer. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc.","c, cpp, csharp, ide, java, php, vbnet",N
+Semgrep,https://semgrep.live,"Free, open-source lightweight static analysis for many languages. Find and block bug variants with patterns that look like source code.","c, go, java, javascript, python",N
+Semmle QL and LGTM,https://semmle.com/,"Find security vulnerabilities, variants, and critical code quality issues using queries over source code. Automatic PR code review; free for public GitHub/Bitbucket repo: [LGTM.com](https://LGTM.com).","c, ci, cpp, java, php",Y
+SensioLabs Insight,https://insight.sensiolabs.com/,"Detect security risks, find bugs and provide actionable metrics for PHP projects.","php, service",Y
+shellcheck,https://www.shellcheck.net/,"ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts.",shell,N
+shipshape,https://github.com/google/shipshape,Static program analysis platform that allows custom analyzers to plug in through a common interface,"c, cpp, java, php",N
+Sider,https://sider.review,An automated code reviewing tool. Improving developers' productivity.,"ci, service, ruby, python, css, go, swift",Y
+slim-lint,https://github.com/sds/slim-lint,Configurable tool for analyzing Slim templates,template,N
+slither,https://github.com/trailofbits/slither,"Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses.",smart,N
+SmartDec Scanner,https://smartdecscanner.com/,"SAST tool which is capable of identifying vulnerabilities and undocumented features. The analyzer scans the source code and executables without debug info (i.e. binaries). Supports: Java/Scala/Kotlin, PHP, C#, JavaScript, TypeScript, VBScript, HTML5, Python, Perl, C/C++, Objective-C/Swift, PL/SQL, T-SQL, ABAP, 1C, Apex, Go, Ruby, Groovy, Delphi, VBA, Visual Basic 6, Solidity, Vyper, COBOL.","abap, apex, c, cobol, cpp, csharp, delphi, go, groovy, html, java, javascript, kotlin, objectivec, perl, php, plsql, python, ruby, scala, security, smart, swift, tsql, typescript, vba, vbscript, vbasic, vyper",Y
+Snyk,https://snyk.io/,Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects),"ci, container, go, java, javascript, php, python, ruby, service",Y
+sobelow,https://github.com/nccgroup/sobelow,Security-focused static analysis for the Phoenix Framework,elixir,N
+solhint,https://protofire.github.io/solhint/,Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code,smart,N
+solium,https://ethlint.readthedocs.io/en/latest/,Solium is a linter to identify and fix style and security issues in Solidity smart contracts,smart,N
+SonarCloud,https://sonarcloud.io,"Multilanguage cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source.","ci, service",Y
+SonarLint for Visual Studio,https://vs.sonarlint.org/,SonarLint is an extension for Visual Studio 2015 and 2017 that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code,"c, cpp, csharp, javascript, vbnet",N
+SonarQube,http://www.sonarqube.org/,SonarQube is an open platform to manage code quality,"ci, csharp, css, go, html, java, javascript, kotlin, php, python, ruby, scala, typescript, xml",N
+Soot,https://soot-oss.github.io/soot/,A framework for analyzing and transforming Java and Android applications,java,N
+Sorbet,https://sorbet.org/,"A fast, powerful type checker designed for Ruby.",ruby,N
+SourceMeter,https://www.sourcemeter.com/resources/rpg/,Static Code Analysis for RPG III and RPG IV versions (including free-form),rpg,Y
+SPARK,https://www.adacore.com/about-spark,Static analysis and formal verification toolset for Ada,ada,Y
+Specificity Graph,https://jonassebastianohlsson.com/specificity-graph/,CSS Specificity Graph Generator,css,N
+Spectral,https://stoplight.io/open-source/spectral,"A flexible JSON/YAML linter, with out of the box support for OpenAPI v2/v3 and AsyncAPI v2","json, yaml",N
+splint,http://splint.org/,Annotation-assisted static program checker,"c, cpp",N
+Spoon,http://spoon.gforge.inria.fr/,"Spoon is a metaprogramming library to analyze and transform Java source code (incl Java 9, 10, 11, 12, 13, 14). It parses source files to build a well-designed AST with powerful analysis and transformation API. Can be integrated in Maven and Gradle",java,N
+SpotBugs,https://spotbugs.github.io/,SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.,java,N
+sqlcheck,https://github.com/jarulraj/sqlcheck,Automatically identify anti-patterns in SQL queries,sql,N
+sqlint,https://github.com/purcell/sqlint,Simple SQL linter,sql,N
+standard,http://standardjs.com/,An npm module that checks for Javascript Styleguide issues,"javascript, nodejs",N
+staticcheck,https://staticcheck.io/,"Go static analysis that specialises in finding bugs, simplifying code and improving performance.",go,N
+STOKE,http://stoke.stanford.edu/,A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations,asm,N
+structcheck,https://gitlab.com/opennota/check,Find unused struct fields,go,N
+Stylelint,http://stylelint.io/,Linter for SCSS/CSS files,css,N
+styler,https://styler.r-lib.org/,Formatting of R source code files and pretty-printing of R code,"r, formatter",N
+SVF,http://svf-tools.github.io/SVF/,A static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs,"c, cpp",N
+SwiftFormat,https://github.com/nicklockwood/SwiftFormat,A library and command-line formatting tool for reformatting Swift code,"formatter, swift",N
+SwiftLint,https://realm.github.io/SwiftLint/,A tool to enforce Swift style and conventions,swift,N
+Synopsys,https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html,"A commercial static analysis platform that allows for scanning of multiple languages (C/C++, Android, C#, Java, JS, PHP, Python, Node.JS, Ruby, Fortran, and Swift).","c, ci, cpp, csharp, fortran, java, javascript, mobile, nodejs, php, python, ruby, swift",Y
+Tailor,https://tailor.sh/,A static analysis and lint tool for source code written in Apple's Swift programming language.,swift,N
+tclchecker,https://github.com/ActiveState/tdk/blob/master/docs/3.0/TDK_3.0_Checker.txt,A static syntax analysis module (as part of [TDK](https://github.com/ActiveState/tdk)).,tcl,N
+Teamscale,http://www.teamscale.com/,Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available,"abap, c, ci, cpp, csharp, ide, java, service",Y
+tern,https://ternjs.net/,"A JavaScript code analyzer for deep, cross-editor language support.",javascript,N
+terraform-compliance,https://terraform-compliance.com,"A lightweight, compliance- and security focused, BDD test framework against Terraform.",configmanagement,N
+terrascan,https://github.com/cesar-rodriguez/terrascan,Collection of security and best practice tests for static code analysis of Terraform templates,configmanagement,N
+test,http://golang.org/pkg/testing/,Show location of test failures from the stdlib testing module,go,N
+Test Design Studio,http://patterson-consulting.net/tds,A full IDE with static code analysis for Micro Focus Unified Functional Testing VBScript-based automated tests,vbscript,Y
+tflint,https://github.com/wata727/tflint,A Terraform linter for detecting errors that can not be detected by `terraform plan`.,configmanagement,N
+TscanCode,https://github.com/Tencent/TscanCode,"A fast and accurate static analysis solution for C/C++, C#, Lua codes provided by Tencent. Using GPLv3 license.","c, cpp, csharp, lua",N
+tslint-clean-code,https://www.npmjs.com/package/tslint-clean-code,A set of TSLint rules inspired by the Clean Code handbook,typescript,N
+tslint-microsoft-contrib,https://github.com/Microsoft/tslint-microsoft-contrib,A set of tslint rules for static code analysis of TypeScript projects maintained by Microsoft,typescript,N
+tsqllint,https://github.com/tsqllint/tsqllint,T-SQL-specific linter,sql,N
+TSqlRules,https://github.com/ashleyglee/TSqlRules,TSQL Static Code Analysis Rules for SQL Server,sql,N
+Tuli,https://github.com/ircmaxell/Tuli,A static analysis engine,php,N
+twig-lint,https://github.com/asm89/twig-lint,twig-lint is a lint tool for your twig files,php,N
+Twiggy,https://rustwasm.github.io/twiggy/,Analyzes a binary's call graph to profile code size. The goal is to slim down binaries.,binary,N
+TypeScript Call Graph,https://github.com/whyboris/TypeScript-Call-Graph,CLI to generate an interactive graph of functions and calls from your TypeScript files,typescript,N
+unconvert,https://github.com/mdempsky/unconvert,Detect redundant type conversions,go,N
+Undebt,https://github.com/Yelp/undebt,"Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions.","c, cpp, java, php",N
+Understand,https://scitools.com/ada-programming-essential/,"IDE that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada and VHDL.",ada,Y
+Unibeautify,https://unibeautify.com/,"Universal code beautifier with a GitHub app. Supports HTML, CSS, JavaScript, TypeScript, JSX, Vue, C++, Go, Objective-C, Java, Python, PHP, GraphQL, Markdown, and more.","formatter, c, cpp, css, go, html, java, javascript, jsx, markdown, objectivec, php, python, typescript, vue",N
+unimport,https://github.com/alexkohler/unimport,Finds unnecessary import aliases,go,N
+unimport,https://unimport.hakancelik.dev,"A linter, formatter for finding and removing unused import statements",python,N
+unparam,https://github.com/mvdan/unparam,Find unused function parameters,go,N
+Upsource,https://www.jetbrains.com/upsource/,"Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin.","ci, java, javascript, kotlin, php, service",Y
+vale,https://errata-ai.gitbook.io/vale/,"A customizable, syntax-aware linter for prose.",writing,N
+varcheck,https://gitlab.com/opennota/check,Find unused global variables and constants,go,N
+vera++,https://bitbucket.org/verateam/vera/wiki/Introduction,"Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.","c, cpp",N
+Veracode,http://www.veracode.com/products/static-analysis-sast/static-code-analysis,"Find flaws in binaries and bytecode without requiring source. Support all major programming languages: Java, .NET, JavaScript, Swift, Objective-C, C, C++ and more.","c, cpp, dotnet, java, javascript, objectivec, php, swift, security",Y
+vint,https://github.com/Kuniwak/vint,Fast and Highly Extensible Vim script Language Lint implemented by Python,ide,N
+Violations Lib,https://github.com/tomasbjerre/violations-lib,"Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.","ci, java, support",N
+VSDiagnostics,https://github.com/Vannevelj/VSDiagnostics,A collection of static analyzers based on Roslyn that integrates with VS,csharp,N
+vulture,https://github.com/jendrikseipp/vulture,"Find unused classes, functions and variables in Python code.",python,N
+WALA,http://wala.sourceforge.net,Static analysis capabilities for Java bytecode and related languages and for JavaScript,"javascript, java",N
+WAP,https://securityonline.info/owasp-wap-web-application-protection-project/,Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining,php,N
+WartRemover,https://www.wartremover.org/,A flexible Scala code linting tool,scala,N
+Weeder,https://github.com/ocharles/weeder,A tool for detecting dead exports or package imports in Haskell code,haskell,N
+wemake-python-styleguide,https://wemake-python-stylegui.de,The strictest and most opinionated python linter ever,python,N
+WhiteHat Application Security Platform,https://www.whitehatsec.com/platform/static-application-security-testing/,WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10.,"java, csharp, aspnet, php, javascript, nodejs, objectivec, mobile, html, typescript",Y
+wily,https://github.com/tonybaloney/wily,"A command-line tool for archiving, exploring and graphing the complexity of Python source code.",python,N
+Wintellect.Analyzers,https://github.com/Wintellect/Wintellect.Analyzers,"'.NET Compiler Platform (""Roslyn"") diagnostic analyzers and code fixes.",csharp,N
+Wotan,https://github.com/fimbullinter/wotan,Pluggable TypeScript and JavaScript linter,"typescript, javascript",N
+write-good,https://github.com/btford/write-good,"'A linter with a focus on eliminating ""weasel words"".",writing,N
+wsl,https://github.com/bombsimon/wsl,Enforces empty lines at the right places,go,N
+Xanitizer,https://xanitizer.com/,Xanitizer finds security vulnerabilities in Java/Scala web applications,"java, scala",Y
+XCode,https://developer.apple.com/xcode/,"XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C).","c, cpp, objectivec",Y
+xenon,https://xenon.readthedocs.io/,Monitor code complexity using [`radon`](https://github.com/rubik/radon).,python,N
+xo,https://github.com/xojs/xo,Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code,javascript,N
+yamllint,https://yamllint.readthedocs.io/,"Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.","template, yaml",N
+yardstick,https://github.com/calmh/yardstick,Javascript code metrics,javascript,N
+Stan,https://kowainik.github.io/projects/stan,Stan is a command-line tool for analysing Haskell projects and outputting discovered vulnerabilities in a helpful way with possible solutions for detected problems,haskell,N
+StaticLint,ttps://github.com/julia-vscode/StaticLint.j,Static Code Analysis for Juli,julia,N
+PC-lint,https://www.gimpel.com/,"Static analysis for C/C++. Runs natively under Windows/Linux/MacOS. Analyzes code for virtually any platform, supporting C11/C18 and C++17.","c, cpp",Y
+kmdr,https://kmdr.sh/,CLI tool for learning commands from your terminal. kmdr delivers a break down of commands with every attribute explained.,shell,N
+Zaam-Dox,No Homepage,No Description,python,Y
+Otcom,No Homepage,No Description,csharp,N
+Lotstring,No Homepage,No Description,csharp,Y
+Daltfresh,No Homepage,No Description,javascript,N
+Bytecard,No Homepage,No Description,haskell,N
+Zathin,No Homepage,No Description,bash,N
+Bitwolf,No Homepage,No Description,python,Y
+Toughjoyfax,No Homepage,No Description,bash,Y
+Holdlamis,No Homepage,No Description,java,N
+Redhold,No Homepage,No Description,cpp,Y
+Flowdesk,No Homepage,No Description,csharp,Y
+Tresom,No Homepage,No Description,haskell,Y
+Aerified,No Homepage,No Description,bash,Y
+Cookley,No Homepage,No Description,ocaml,Y
+Asoka,No Homepage,No Description,haskell,Y
+Ventosanzap,No Homepage,No Description,kotlin,N
+Holdlamis,No Homepage,No Description,kotlin,N
+Alpha,No Homepage,No Description,python,Y
+Ventosanzap,No Homepage,No Description,javascript,Y
+Temp,No Homepage,No Description,ocaml,N
+Zathin,No Homepage,No Description,objectivec,N
+Stim,No Homepage,No Description,objectivec,Y
+Veribet,No Homepage,No Description,python,Y
+Wrapsafe,No Homepage,No Description,ocaml,N
+Opela,No Homepage,No Description,objectivec,N
+Temp,No Homepage,No Description,csharp,Y
+Alpha,No Homepage,No Description,csharp,Y
+Veribet,No Homepage,No Description,ocaml,N
+Fixflex,No Homepage,No Description,csharp,N
+Lotstring,No Homepage,No Description,objectivec,N
+Matsoft,No Homepage,No Description,haskell,Y
+Bytecard,No Homepage,No Description,kotlin,N
+Fintone,No Homepage,No Description,objectivec,N
+Daltfresh,No Homepage,No Description,cpp,N
+Cookley,No Homepage,No Description,bash,N
+Cookley,No Homepage,No Description,asm,Y
+Sub-Ex,No Homepage,No Description,javascript,Y
+Zontrax,No Homepage,No Description,kotlin,Y
+Span,No Homepage,No Description,haskell,Y
+Domainer,No Homepage,No Description,csharp,N
+Lotstring,No Homepage,No Description,javascript,N
+Fix San,No Homepage,No Description,python,Y
+Span,No Homepage,No Description,java,Y
+Stronghold,No Homepage,No Description,ocaml,N
+Tresom,No Homepage,No Description,cpp,N
+Domainer,No Homepage,No Description,csharp,N
+Sub-Ex,No Homepage,No Description,python,N
+Treeflex,No Homepage,No Description,java,Y
+Tin,No Homepage,No Description,cpp,Y
+Duobam,No Homepage,No Description,csharp,N
+Zamit,No Homepage,No Description,cpp,N
+Temp,No Homepage,No Description,haskell,Y
+Quo Lux,No Homepage,No Description,haskell,N
+Gembucket,No Homepage,No Description,csharp,N
+Regrant,No Homepage,No Description,ocaml,Y
+Gembucket,No Homepage,No Description,haskell,Y
+Fixflex,No Homepage,No Description,cpp,N
+Rank,No Homepage,No Description,javascript,N
+Stringtough,No Homepage,No Description,java,Y
+Treeflex,No Homepage,No Description,csharp,Y
+Sonair,No Homepage,No Description,haskell,Y
+Toughjoyfax,No Homepage,No Description,kotlin,Y
+Domainer,No Homepage,No Description,javascript,Y
+Stringtough,No Homepage,No Description,csharp,Y
+Sonair,No Homepage,No Description,ocaml,Y
+Viva,No Homepage,No Description,asm,N
+Flexidy,No Homepage,No Description,haskell,N
+Greenlam,No Homepage,No Description,javascript,Y
+Sonsing,No Homepage,No Description,csharp,N
+Ventosanzap,No Homepage,No Description,haskell,Y
+Ventosanzap,No Homepage,No Description,kotlin,Y
+Stronghold,No Homepage,No Description,cpp,N
+Tin,No Homepage,No Description,objectivec,Y
+Treeflex,No Homepage,No Description,haskell,Y
+Latlux,No Homepage,No Description,bash,N
+Holdlamis,No Homepage,No Description,java,N
+Cookley,No Homepage,No Description,javascript,Y
+Asoka,No Homepage,No Description,ocaml,N
+Treeflex,No Homepage,No Description,java,Y
+Kanlam,No Homepage,No Description,cpp,N
+Duobam,No Homepage,No Description,objectivec,N
+Transcof,No Homepage,No Description,cpp,N
+Bytecard,No Homepage,No Description,asm,Y
+Job,No Homepage,No Description,asm,Y
+Mat Lam Tam,No Homepage,No Description,asm,N
+Flowdesk,No Homepage,No Description,kotlin,N
+Tempsoft,No Homepage,No Description,javascript,Y
+Zamit,No Homepage,No Description,cpp,Y
+Cardguard,No Homepage,No Description,haskell,Y
+Span,No Homepage,No Description,cpp,N
+Hatity,No Homepage,No Description,kotlin,Y
+Overhold,No Homepage,No Description,java,N
+Bitwolf,No Homepage,No Description,asm,Y
+Cardguard,No Homepage,No Description,kotlin,Y
+Overhold,No Homepage,No Description,bash,Y
+Temp,No Homepage,No Description,haskell,Y
+Aerified,No Homepage,No Description,kotlin,Y
+Zontrax,No Homepage,No Description,asm,N
+Zamit,No Homepage,No Description,haskell,Y
+Sonsing,No Homepage,No Description,kotlin,N
+Rank,No Homepage,No Description,bash,Y
+Zoolab,No Homepage,No Description,kotlin,N
+Cookley,No Homepage,No Description,cpp,N
+Domainer,No Homepage,No Description,csharp,N
+Greenlam,No Homepage,No Description,cpp,N
+Zoolab,No Homepage,No Description,python,N
+Overhold,No Homepage,No Description,python,Y
+Regrant,No Homepage,No Description,kotlin,Y
+Tampflex,No Homepage,No Description,java,N
+Flexidy,No Homepage,No Description,asm,N
+Domainer,No Homepage,No Description,objectivec,N
+Temp,No Homepage,No Description,csharp,N
+Treeflex,No Homepage,No Description,cpp,Y
+Biodex,No Homepage,No Description,python,N
+Treeflex,No Homepage,No Description,kotlin,Y
+Stim,No Homepage,No Description,objectivec,Y
+Tin,No Homepage,No Description,kotlin,Y
+Cardguard,No Homepage,No Description,csharp,N
+Alpha,No Homepage,No Description,ocaml,Y
+Lotlux,No Homepage,No Description,python,N
+Alpha,No Homepage,No Description,objectivec,N
+Mat Lam Tam,No Homepage,No Description,python,N
+Bitwolf,No Homepage,No Description,kotlin,N
+Ronstring,No Homepage,No Description,python,Y
+Matsoft,No Homepage,No Description,python,Y
+Pannier,No Homepage,No Description,asm,Y
+Ronstring,No Homepage,No Description,bash,N
+Ronstring,No Homepage,No Description,ocaml,N
+Kanlam,No Homepage,No Description,asm,N
+Overhold,No Homepage,No Description,csharp,Y
+Zontrax,No Homepage,No Description,cpp,N
+Aerified,No Homepage,No Description,haskell,Y
+Sonsing,No Homepage,No Description,csharp,N
+Zamit,No Homepage,No Description,csharp,N
+Bigtax,No Homepage,No Description,asm,Y
+It,No Homepage,No Description,csharp,N
+Kanlam,No Homepage,No Description,javascript,Y
+Treeflex,No Homepage,No Description,python,N
+Ronstring,No Homepage,No Description,haskell,Y
+Bytecard,No Homepage,No Description,bash,N
+Veribet,No Homepage,No Description,kotlin,N
+Stim,No Homepage,No Description,asm,N
+Treeflex,No Homepage,No Description,asm,Y
+Bitwolf,No Homepage,No Description,objectivec,N
+Tres-Zap,No Homepage,No Description,objectivec,N
+Toughjoyfax,No Homepage,No Description,java,Y
+Subin,No Homepage,No Description,java,N
+Ronstring,No Homepage,No Description,csharp,N
+Biodex,No Homepage,No Description,bash,N
+Y-Solowarm,No Homepage,No Description,kotlin,N
+Veribet,No Homepage,No Description,asm,Y
+Ronstring,No Homepage,No Description,kotlin,N
+Sonair,No Homepage,No Description,java,Y
+Zathin,No Homepage,No Description,java,Y
+Subin,No Homepage,No Description,csharp,Y
+Rank,No Homepage,No Description,javascript,N
+Pannier,No Homepage,No Description,asm,Y
+Temp,No Homepage,No Description,asm,N
+Pannier,No Homepage,No Description,cpp,Y
+Bamity,No Homepage,No Description,cpp,N
+Prodder,No Homepage,No Description,objectivec,Y
+Temp,No Homepage,No Description,python,N
+Ventosanzap,No Homepage,No Description,objectivec,Y
+Alpha,No Homepage,No Description,kotlin,N
+Cookley,No Homepage,No Description,bash,N
+Stronghold,No Homepage,No Description,python,Y
+Zaam-Dox,No Homepage,No Description,java,N
+Asoka,No Homepage,No Description,asm,Y
+It,No Homepage,No Description,python,N
+Daltfresh,No Homepage,No Description,haskell,N
+Sub-Ex,No Homepage,No Description,csharp,N
+Zathin,No Homepage,No Description,asm,Y
+Ronstring,No Homepage,No Description,haskell,Y
+Prodder,No Homepage,No Description,asm,N
+Alpha,No Homepage,No Description,java,Y
+Sub-Ex,No Homepage,No Description,ocaml,Y
+Vagram,No Homepage,No Description,cpp,Y
+Treeflex,No Homepage,No Description,csharp,N
+Zamit,No Homepage,No Description,ocaml,Y
+It,No Homepage,No Description,kotlin,Y
+Trippledex,No Homepage,No Description,java,Y
+Konklux,No Homepage,No Description,kotlin,N
+Fixflex,No Homepage,No Description,haskell,Y
+Veribet,No Homepage,No Description,bash,N
+Stim,No Homepage,No Description,kotlin,Y
+Ronstring,No Homepage,No Description,haskell,Y
+Transcof,No Homepage,No Description,java,N
+Stim,No Homepage,No Description,asm,N
+Stronghold,No Homepage,No Description,kotlin,Y
+Cardify,No Homepage,No Description,javascript,Y
+Fix San,No Homepage,No Description,asm,N
+Vagram,No Homepage,No Description,bash,N
+It,No Homepage,No Description,objectivec,N
+Fintone,No Homepage,No Description,java,N
+Home Ing,No Homepage,No Description,ocaml,Y
+Y-Solowarm,No Homepage,No Description,python,Y
+Bigtax,No Homepage,No Description,kotlin,Y
+Cookley,No Homepage,No Description,ocaml,N
+Cardguard,No Homepage,No Description,bash,N
+Konklux,No Homepage,No Description,objectivec,N
+Aerified,No Homepage,No Description,python,N
+Voltsillam,No Homepage,No Description,csharp,Y
+Konklab,No Homepage,No Description,ocaml,N
+Subin,No Homepage,No Description,cpp,Y
+Tresom,No Homepage,No Description,kotlin,N
+Stim,No Homepage,No Description,javascript,N
+Regrant,No Homepage,No Description,python,Y
+Tin,No Homepage,No Description,csharp,N
+Bigtax,No Homepage,No Description,haskell,Y
+Gembucket,No Homepage,No Description,javascript,Y
+Greenlam,No Homepage,No Description,asm,N
+Redhold,No Homepage,No Description,kotlin,N
+Bamity,No Homepage,No Description,ocaml,N
+Cardguard,No Homepage,No Description,haskell,N
+Bamity,No Homepage,No Description,cpp,Y
+Sub-Ex,No Homepage,No Description,objectivec,N
+Tampflex,No Homepage,No Description,ocaml,N
+Keylex,No Homepage,No Description,ocaml,N
+Latlux,No Homepage,No Description,objectivec,N
+Latlux,No Homepage,No Description,bash,Y
+Sonair,No Homepage,No Description,kotlin,Y
+Stim,No Homepage,No Description,kotlin,N
+Vagram,No Homepage,No Description,kotlin,Y
+Tresom,No Homepage,No Description,javascript,Y
+Fixflex,No Homepage,No Description,java,Y
+Latlux,No Homepage,No Description,javascript,Y
+Konklux,No Homepage,No Description,ocaml,Y
+Hatity,No Homepage,No Description,haskell,N
+Duobam,No Homepage,No Description,csharp,N
+Tres-Zap,No Homepage,No Description,asm,Y
+Sonair,No Homepage,No Description,cpp,Y
+Fix San,No Homepage,No Description,cpp,Y
+Wrapsafe,No Homepage,No Description,haskell,Y
+Opela,No Homepage,No Description,ocaml,Y
+Prodder,No Homepage,No Description,javascript,Y
+Zontrax,No Homepage,No Description,asm,Y
+Overhold,No Homepage,No Description,python,N
+Konklux,No Homepage,No Description,cpp,Y
+Cardguard,No Homepage,No Description,objectivec,N
+Sonsing,No Homepage,No Description,javascript,N
+Prodder,No Homepage,No Description,csharp,N
+Stim,No Homepage,No Description,bash,N
+Quo Lux,No Homepage,No Description,bash,N
+Bitchip,No Homepage,No Description,javascript,N
+Latlux,No Homepage,No Description,bash,N
+Konklux,No Homepage,No Description,kotlin,N
+Flowdesk,No Homepage,No Description,python,Y
+Fix San,No Homepage,No Description,haskell,N
+Zaam-Dox,No Homepage,No Description,java,Y
+Sonair,No Homepage,No Description,cpp,N
+Sonair,No Homepage,No Description,asm,N
+Sonsing,No Homepage,No Description,ocaml,N
+Lotstring,No Homepage,No Description,kotlin,N
+Rank,No Homepage,No Description,java,Y
+Job,No Homepage,No Description,csharp,Y
+Namfix,No Homepage,No Description,kotlin,N
+Quo Lux,No Homepage,No Description,cpp,N
+Bigtax,No Homepage,No Description,python,Y
+Bitwolf,No Homepage,No Description,javascript,N
+Biodex,No Homepage,No Description,java,Y
+Zoolab,No Homepage,No Description,objectivec,Y
+Sonsing,No Homepage,No Description,javascript,Y
+Keylex,No Homepage,No Description,objectivec,Y
+Job,No Homepage,No Description,haskell,N
+Fix San,No Homepage,No Description,asm,Y
+Stim,No Homepage,No Description,kotlin,Y
+Domainer,No Homepage,No Description,python,Y
+Daltfresh,No Homepage,No Description,javascript,N
+Otcom,No Homepage,No Description,kotlin,N
+Temp,No Homepage,No Description,python,N
+Zamit,No Homepage,No Description,javascript,N
+Bamity,No Homepage,No Description,java,N
+Stronghold,No Homepage,No Description,ocaml,N
+Aerified,No Homepage,No Description,cpp,Y
+Mat Lam Tam,No Homepage,No Description,objectivec,Y
+Overhold,No Homepage,No Description,cpp,Y
+Holdlamis,No Homepage,No Description,bash,N
+Redhold,No Homepage,No Description,python,Y
+Lotlux,No Homepage,No Description,csharp,N
+Wrapsafe,No Homepage,No Description,csharp,N
+Voyatouch,No Homepage,No Description,kotlin,Y
+Voyatouch,No Homepage,No Description,objectivec,Y
+Quo Lux,No Homepage,No Description,asm,N
+Veribet,No Homepage,No Description,java,Y
+Asoka,No Homepage,No Description,kotlin,N
+Sub-Ex,No Homepage,No Description,haskell,N
+Voyatouch,No Homepage,No Description,java,N
+It,No Homepage,No Description,python,N
+Asoka,No Homepage,No Description,kotlin,Y
+Biodex,No Homepage,No Description,bash,Y
+Opela,No Homepage,No Description,kotlin,Y
+Holdlamis,No Homepage,No Description,ocaml,Y
+Overhold,No Homepage,No Description,cpp,Y
+Redhold,No Homepage,No Description,csharp,Y
+Tres-Zap,No Homepage,No Description,python,N
+Tresom,No Homepage,No Description,ocaml,N
+Lotlux,No Homepage,No Description,javascript,N
+Tres-Zap,No Homepage,No Description,cpp,N
+Bigtax,No Homepage,No Description,java,N
+Cardguard,No Homepage,No Description,csharp,Y
+Temp,No Homepage,No Description,kotlin,Y
+Gembucket,No Homepage,No Description,kotlin,Y
+Andalax,No Homepage,No Description,asm,Y
+Zamit,No Homepage,No Description,python,Y
+Tresom,No Homepage,No Description,objectivec,N
+Ventosanzap,No Homepage,No Description,ocaml,Y
+Vagram,No Homepage,No Description,cpp,N
+Keylex,No Homepage,No Description,objectivec,N
+Bitchip,No Homepage,No Description,ocaml,N
+Mat Lam Tam,No Homepage,No Description,java,N
+Transcof,No Homepage,No Description,java,N
+Opela,No Homepage,No Description,python,Y
+Lotstring,No Homepage,No Description,kotlin,Y
+Veribet,No Homepage,No Description,asm,Y
+Zaam-Dox,No Homepage,No Description,javascript,N
+Zathin,No Homepage,No Description,java,N
+Lotstring,No Homepage,No Description,python,N
+Tresom,No Homepage,No Description,haskell,Y
+Fix San,No Homepage,No Description,kotlin,Y
+Bigtax,No Homepage,No Description,ocaml,N
+Vagram,No Homepage,No Description,java,N
+Konklux,No Homepage,No Description,kotlin,N
+Lotlux,No Homepage,No Description,java,N
+Konklab,No Homepage,No Description,javascript,Y
+Andalax,No Homepage,No Description,javascript,N
+Namfix,No Homepage,No Description,bash,N
+Gembucket,No Homepage,No Description,cpp,N
+Tres-Zap,No Homepage,No Description,haskell,N
+Flowdesk,No Homepage,No Description,java,Y
+Wrapsafe,No Homepage,No Description,csharp,Y
+Konklab,No Homepage,No Description,cpp,Y
+Flexidy,No Homepage,No Description,ocaml,N
+Domainer,No Homepage,No Description,java,N
+Voltsillam,No Homepage,No Description,cpp,Y
+Alpha,No Homepage,No Description,objectivec,N
+Wrapsafe,No Homepage,No Description,bash,Y
+Fintone,No Homepage,No Description,ocaml,Y
+Lotstring,No Homepage,No Description,javascript,Y
+Hatity,No Homepage,No Description,java,Y
+Veribet,No Homepage,No Description,haskell,Y
+Ventosanzap,No Homepage,No Description,python,Y
+Pannier,No Homepage,No Description,bash,Y
+Stringtough,No Homepage,No Description,kotlin,Y
+Otcom,No Homepage,No Description,javascript,Y
+Rank,No Homepage,No Description,asm,N
+Subin,No Homepage,No Description,java,Y
+Span,No Homepage,No Description,kotlin,N
+Lotstring,No Homepage,No Description,haskell,Y
+Lotstring,No Homepage,No Description,python,Y
+Gembucket,No Homepage,No Description,bash,Y
+Transcof,No Homepage,No Description,asm,Y
+Sonsing,No Homepage,No Description,java,N
+Zathin,No Homepage,No Description,ocaml,Y
+Temp,No Homepage,No Description,cpp,N
+Voyatouch,No Homepage,No Description,ocaml,N
+Tampflex,No Homepage,No Description,haskell,N
+Rank,No Homepage,No Description,ocaml,N
+Bamity,No Homepage,No Description,csharp,Y
+Mat Lam Tam,No Homepage,No Description,objectivec,N
+Lotlux,No Homepage,No Description,cpp,N
+Job,No Homepage,No Description,ocaml,Y
+Holdlamis,No Homepage,No Description,python,Y
+Lotstring,No Homepage,No Description,csharp,N
+Wrapsafe,No Homepage,No Description,objectivec,N
+Asoka,No Homepage,No Description,asm,Y
+Alphazap,No Homepage,No Description,cpp,Y
+Biodex,No Homepage,No Description,asm,N
+Subin,No Homepage,No Description,kotlin,Y
+Zamit,No Homepage,No Description,csharp,N
+Namfix,No Homepage,No Description,python,N
+Asoka,No Homepage,No Description,ocaml,N
+Namfix,No Homepage,No Description,python,Y
+Pannier,No Homepage,No Description,python,Y
+Gembucket,No Homepage,No Description,cpp,Y
+Ronstring,No Homepage,No Description,cpp,N
+Veribet,No Homepage,No Description,bash,Y
+Veribet,No Homepage,No Description,objectivec,Y
+Stim,No Homepage,No Description,cpp,N
+Alpha,No Homepage,No Description,haskell,N
+Bamity,No Homepage,No Description,java,N
+Span,No Homepage,No Description,javascript,Y
+Rank,No Homepage,No Description,ocaml,Y
+Trippledex,No Homepage,No Description,haskell,Y
+Konklab,No Homepage,No Description,kotlin,N
+Veribet,No Homepage,No Description,csharp,N
+Biodex,No Homepage,No Description,haskell,Y
+Bigtax,No Homepage,No Description,csharp,N
+Andalax,No Homepage,No Description,haskell,N
+Toughjoyfax,No Homepage,No Description,haskell,N
+Lotlux,No Homepage,No Description,python,Y
+Bigtax,No Homepage,No Description,objectivec,N
+Redhold,No Homepage,No Description,java,N
+Daltfresh,No Homepage,No Description,java,Y
+Keylex,No Homepage,No Description,kotlin,Y
+Daltfresh,No Homepage,No Description,kotlin,Y
+Regrant,No Homepage,No Description,haskell,N
+Domainer,No Homepage,No Description,bash,N
+Bitwolf,No Homepage,No Description,python,Y
+Zathin,No Homepage,No Description,python,Y
+Treeflex,No Homepage,No Description,kotlin,Y
+Ronstring,No Homepage,No Description,cpp,N
+Stronghold,No Homepage,No Description,python,Y
+Tempsoft,No Homepage,No Description,java,N
+Namfix,No Homepage,No Description,bash,N
+Flexidy,No Homepage,No Description,haskell,Y
+Kanlam,No Homepage,No Description,java,Y
+Tres-Zap,No Homepage,No Description,java,N
+Stim,No Homepage,No Description,kotlin,Y
+Duobam,No Homepage,No Description,cpp,N
+Daltfresh,No Homepage,No Description,asm,N
+Otcom,No Homepage,No Description,python,N
+Toughjoyfax,No Homepage,No Description,csharp,Y
+Tresom,No Homepage,No Description,haskell,Y
+Aerified,No Homepage,No Description,haskell,N
+Holdlamis,No Homepage,No Description,cpp,N
+Kanlam,No Homepage,No Description,cpp,N
+Tin,No Homepage,No Description,ocaml,N
+Redhold,No Homepage,No Description,ocaml,N
+Fintone,No Homepage,No Description,csharp,Y
+Overhold,No Homepage,No Description,bash,N
+Tampflex,No Homepage,No Description,cpp,Y
+Stim,No Homepage,No Description,haskell,Y
+Kanlam,No Homepage,No Description,kotlin,Y
+Stim,No Homepage,No Description,csharp,N
+Tresom,No Homepage,No Description,javascript,Y
+Cardguard,No Homepage,No Description,ocaml,N
+Temp,No Homepage,No Description,haskell,Y
+Sonsing,No Homepage,No Description,ocaml,Y
+Zamit,No Homepage,No Description,python,N
+Stronghold,No Homepage,No Description,asm,N
+Duobam,No Homepage,No Description,asm,N
+Lotlux,No Homepage,No Description,java,Y
+Stim,No Homepage,No Description,objectivec,Y
+Zaam-Dox,No Homepage,No Description,javascript,Y
+Veribet,No Homepage,No Description,csharp,Y
+Voyatouch,No Homepage,No Description,bash,Y
+Voltsillam,No Homepage,No Description,java,N
+Tresom,No Homepage,No Description,objectivec,N
+Bytecard,No Homepage,No Description,java,N
+Bigtax,No Homepage,No Description,cpp,N
+Tampflex,No Homepage,No Description,python,N
+Domainer,No Homepage,No Description,cpp,Y
+Konklab,No Homepage,No Description,python,Y
+Opela,No Homepage,No Description,java,Y
+Sonsing,No Homepage,No Description,ocaml,Y
+Zamit,No Homepage,No Description,javascript,N
+Tres-Zap,No Homepage,No Description,cpp,N
+Quo Lux,No Homepage,No Description,haskell,Y
+Keylex,No Homepage,No Description,objectivec,Y
+Tampflex,No Homepage,No Description,cpp,Y
+Bitwolf,No Homepage,No Description,csharp,Y
+Overhold,No Homepage,No Description,asm,N
+Temp,No Homepage,No Description,bash,N
+Voltsillam,No Homepage,No Description,csharp,N
+Flowdesk,No Homepage,No Description,bash,N
+Sonsing,No Homepage,No Description,csharp,Y
+Voltsillam,No Homepage,No Description,objectivec,N
+Bitwolf,No Homepage,No Description,objectivec,Y
+Zaam-Dox,No Homepage,No Description,kotlin,Y
+Regrant,No Homepage,No Description,python,N
+Veribet,No Homepage,No Description,python,N
+Zaam-Dox,No Homepage,No Description,java,N
+Biodex,No Homepage,No Description,bash,N
+Vagram,No Homepage,No Description,bash,Y
+Domainer,No Homepage,No Description,cpp,N
+Bitchip,No Homepage,No Description,objectivec,Y
+Stronghold,No Homepage,No Description,cpp,N
+Y-find,No Homepage,No Description,csharp,Y
+Zaam-Dox,No Homepage,No Description,csharp,Y
+Viva,No Homepage,No Description,python,N
+Subin,No Homepage,No Description,kotlin,N
+Stronghold,No Homepage,No Description,cpp,Y
+Otcom,No Homepage,No Description,cpp,N
+Viva,No Homepage,No Description,python,N
+Transcof,No Homepage,No Description,cpp,Y
+Konklux,No Homepage,No Description,asm,Y
+Bigtax,No Homepage,No Description,javascript,N
+Fintone,No Homepage,No Description,objectivec,Y
+Cookley,No Homepage,No Description,objectivec,N
+Home Ing,No Homepage,No Description,kotlin,Y
+Flexidy,No Homepage,No Description,python,N
+Konklux,No Homepage,No Description,cpp,N
+Lotlux,No Homepage,No Description,kotlin,Y
+Mat Lam Tam,No Homepage,No Description,asm,N
+Asoka,No Homepage,No Description,java,Y
+Redhold,No Homepage,No Description,cpp,Y
+Fintone,No Homepage,No Description,ocaml,Y
+Hatity,No Homepage,No Description,bash,N
+Konklab,No Homepage,No Description,asm,N
+Sonair,No Homepage,No Description,haskell,Y
+Ventosanzap,No Homepage,No Description,cpp,Y
+Zathin,No Homepage,No Description,cpp,Y
+Otcom,No Homepage,No Description,javascript,Y
+Asoka,No Homepage,No Description,python,Y
+Sub-Ex,No Homepage,No Description,bash,N
+Greenlam,No Homepage,No Description,kotlin,N
+Tres-Zap,No Homepage,No Description,bash,N
+Veribet,No Homepage,No Description,python,N
+Flowdesk,No Homepage,No Description,csharp,N
+Zontrax,No Homepage,No Description,java,Y
+Prodder,No Homepage,No Description,objectivec,N
+Veribet,No Homepage,No Description,haskell,N
+Prodder,No Homepage,No Description,objectivec,N
+Prodder,No Homepage,No Description,javascript,Y
+Voltsillam,No Homepage,No Description,ocaml,Y
+Sonsing,No Homepage,No Description,bash,Y
+Temp,No Homepage,No Description,cpp,Y
+Opela,No Homepage,No Description,ocaml,N
+Veribet,No Homepage,No Description,bash,N
+Cardguard,No Homepage,No Description,objectivec,N
+Overhold,No Homepage,No Description,haskell,N
+Zaam-Dox,No Homepage,No Description,objectivec,N
+Tampflex,No Homepage,No Description,csharp,Y
+Subin,No Homepage,No Description,objectivec,Y
+Bitchip,No Homepage,No Description,haskell,N
+Zamit,No Homepage,No Description,haskell,Y
+Alpha,No Homepage,No Description,javascript,N
+Bytecard,No Homepage,No Description,ocaml,N
+Zamit,No Homepage,No Description,python,N
+Prodder,No Homepage,No Description,java,Y
+Flexidy,No Homepage,No Description,bash,Y
+Namfix,No Homepage,No Description,cpp,N
+Sonair,No Homepage,No Description,csharp,Y
+Prodder,No Homepage,No Description,python,Y
+Greenlam,No Homepage,No Description,csharp,N
+Mat Lam Tam,No Homepage,No Description,cpp,Y
+Tres-Zap,No Homepage,No Description,objectivec,Y
+Aerified,No Homepage,No Description,kotlin,N
+Sonair,No Homepage,No Description,objectivec,Y
+Konklux,No Homepage,No Description,objectivec,N
+Bitwolf,No Homepage,No Description,python,Y
+Hatity,No Homepage,No Description,cpp,Y
+Hatity,No Homepage,No Description,javascript,N
+Rank,No Homepage,No Description,cpp,Y
+Redhold,No Homepage,No Description,objectivec,N
+Zoolab,No Homepage,No Description,python,N
+Trippledex,No Homepage,No Description,csharp,N
+Konklab,No Homepage,No Description,javascript,N
+Zamit,No Homepage,No Description,cpp,Y
+Konklab,No Homepage,No Description,cpp,N
+Flexidy,No Homepage,No Description,csharp,Y
+Zoolab,No Homepage,No Description,haskell,Y
+Veribet,No Homepage,No Description,cpp,Y
+Prodder,No Homepage,No Description,asm,N
+Lotlux,No Homepage,No Description,ocaml,N
+Andalax,No Homepage,No Description,ocaml,Y
+Andalax,No Homepage,No Description,kotlin,Y
+Konklab,No Homepage,No Description,asm,Y
+Sub-Ex,No Homepage,No Description,javascript,Y
+Cookley,No Homepage,No Description,javascript,Y
+Stim,No Homepage,No Description,python,N
+Namfix,No Homepage,No Description,ocaml,N
+Voyatouch,No Homepage,No Description,java,N
+Bitwolf,No Homepage,No Description,haskell,Y
+Cardguard,No Homepage,No Description,python,N
+Vagram,No Homepage,No Description,kotlin,N
+Asoka,No Homepage,No Description,cpp,Y
+Vagram,No Homepage,No Description,python,Y
+Fintone,No Homepage,No Description,asm,N
+Voyatouch,No Homepage,No Description,asm,N
+Tempsoft,No Homepage,No Description,cpp,Y
+Cardguard,No Homepage,No Description,bash,Y
+Tresom,No Homepage,No Description,asm,Y
+Veribet,No Homepage,No Description,ocaml,Y
+Tempsoft,No Homepage,No Description,java,Y
+Voyatouch,No Homepage,No Description,python,N
+Bamity,No Homepage,No Description,python,Y
+It,No Homepage,No Description,kotlin,N
+Zaam-Dox,No Homepage,No Description,javascript,N
+Bamity,No Homepage,No Description,csharp,N
+Treeflex,No Homepage,No Description,kotlin,N
+Konklux,No Homepage,No Description,bash,Y
+Stim,No Homepage,No Description,javascript,Y
+Viva,No Homepage,No Description,cpp,N
+Subin,No Homepage,No Description,ocaml,Y
+Fintone,No Homepage,No Description,objectivec,Y
+Hatity,No Homepage,No Description,asm,Y
+Bigtax,No Homepage,No Description,cpp,N
+Mat Lam Tam,No Homepage,No Description,ocaml,Y
+Y-find,No Homepage,No Description,cpp,N
+Subin,No Homepage,No Description,python,N
+It,No Homepage,No Description,objectivec,Y
+Zoolab,No Homepage,No Description,cpp,Y
+Otcom,No Homepage,No Description,asm,Y
+Duobam,No Homepage,No Description,ocaml,N
+Holdlamis,No Homepage,No Description,cpp,N
+Tempsoft,No Homepage,No Description,csharp,N
+Zontrax,No Homepage,No Description,java,Y
+Overhold,No Homepage,No Description,python,Y
+Tres-Zap,No Homepage,No Description,cpp,Y
+Regrant,No Homepage,No Description,csharp,N
+Regrant,No Homepage,No Description,python,N
+Voyatouch,No Homepage,No Description,haskell,N
+Kanlam,No Homepage,No Description,ocaml,Y
+It,No Homepage,No Description,ocaml,Y
+Andalax,No Homepage,No Description,javascript,N
+Latlux,No Homepage,No Description,csharp,Y
+Kanlam,No Homepage,No Description,haskell,N
+Zathin,No Homepage,No Description,ocaml,Y
+Trippledex,No Homepage,No Description,python,N
