@@ -1,0 +1,20 @@
+db_name='defects'
+memory_target=1G
+processes = 150
+audit_file_dest='/u01/app/oracle/admin/defects/adump'
+audit_trail ='db'
+db_block_size=8192
+db_domain=''
+db_recovery_file_dest='/u01/app/oracle/fast_recovery_area'
+db_recovery_file_dest_size=2G
+diagnostic_dest='/u01/app/oracle'
+dispatchers='(PROTOCOL=TCP) (SERVICE=ORCLXDB)'
+open_cursors=300
+remote_login_passwordfile='EXCLUSIVE'
+#undo_tablespace='UNDOTBS1'
+# You may want to ensure that control files are created on separate physical
+# devices
+#control_files = (ora_control1, ora_control2)
+control_files='/u01/app/oracle/oradata/defects/control01.ctl','/u01/app/oracle/oradata/defects/control02.ctl'
+
+DB_CREATE_FILE_DEST='/u01/app/oracle/oradata/defects'
