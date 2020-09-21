@@ -3,8 +3,8 @@ version: '3'
 services:
   database:
     shm_size: "4gb"
-    container_name: "oracle-container"
-    image: container-registry.oracle.com/database/standard
+    container_name: "oracle-container-new"
+    image: container-registry.oracle.com/database/standard:latest
     ports:
       - 1521:1521
       - 5500:5500

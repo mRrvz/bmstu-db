@@ -7,6 +7,8 @@ FIELDS TERMINATED BY  "," OPTIONALLY ENCLOSED BY '"'
    homepage,
    description CHAR(512),
    languages,
-   proprietary
+   proprietary,
+   price,
+   downloads
 )
 

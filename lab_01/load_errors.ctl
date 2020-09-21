@@ -5,5 +5,8 @@ FIELDS TERMINATED BY  "," OPTIONALLY ENCLOSED BY '"'
 (
    cwe_id,
    description CHAR(256),
-   analyzer_name
+   analyzer_name,
+   percentage,
+   danger_level,
+   price
 )

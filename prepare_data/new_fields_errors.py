@@ -21,16 +21,18 @@ def new_fields():
             reader = csv.DictReader(f, fieldnames=['CWE-ID', 'description', 'tool_name'])
 
             writer = csv.DictWriter(csvfile, fieldnames=['CWE-ID', 'description', 'tool_name', 'percentage', 'danger_level',
-                                                         'price', 'created'])
+                                                         'price'])
             writer.writeheader()
-            d1 = datetime.strptime('1/1/2000', '%m/%d/%Y')
+
+            d1 = datetime.strptime('1/1/2008 1:30 PM', '%m/%d/%Y %I:%M %p')
+            d2 = datetime.strptime('1/1/2009 4:50 AM', '%m/%d/%Y %I:%M %p')
             d2 = datetime.strptime('1/1/2020', '%m/%d/%Y')
 
             for row in reader:
                 print(row)
                 writer.writerow({'CWE-ID': row['CWE-ID'], 'description': row['description'], 'tool_name': row['tool_name'],
-                                 'percentage': uniform(0, 100), 'danger_level': randint(1, 10), 'price': randint(10, 100000),
-                                 'created': str(random_date(d1, d2))[:-9]})
+                                 'percentage': uniform(0, 100), 'danger_level': randint(1, 10), 'price': randint(10, 100000)}
+                )
 
 
 new_fields()
