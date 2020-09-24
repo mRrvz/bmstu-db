@@ -17,6 +17,7 @@ services:
     env_file:
       - .config/database.env
     volumes:
-      - ./lab_01:/labs/lab_01
+      - ./labs:/labs
+#- ./lab_01:/labs/lab_01
       - ./datasets:/datasets
       - ./scripts:/scripts

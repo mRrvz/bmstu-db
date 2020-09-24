@@ -7,5 +7,5 @@ FIELDS TERMINATED BY  "," OPTIONALLY ENCLOSED BY '"'
    name CHAR(256),
    weakness_abstraction,
    status,
-   description CHAR(512),
+   description CHAR(512)
 )
