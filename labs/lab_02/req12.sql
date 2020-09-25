@@ -1,8 +1,7 @@
-SELECT percentage
-FROM errors
-JOIN (
-    SELECT danger_level
-    FROM cwe
-    JOIN (
-        SELECT
-        )
+SELECT name, price, downloads
+FROM analyzers
+WHERE price > (
+    SELECT MAX(price)
+    FROM errors
+    WHERE analyzers.downloads > errors.price
+);

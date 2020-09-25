@@ -10,3 +10,8 @@ ADD (
     price INTEGER CHECK(price > 0),
     downloads INTEGER CHECK(downloads > 0)
 );
+
+ALTER TABLE errors
+ADD (
+    parent_id INTEGER
+);
