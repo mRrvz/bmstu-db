@@ -1,8 +1,10 @@
-SELECT cwe_id, description
-FROM errors
+SELECT errors.id, errors.cwe_id, cwe.description
+FROM errors 
+JOIN cwe 
+ON errors.cwe_id = cwe.cwe_id
 WHERE EXISTS (
     SELECT *
-    FROM analyzers
-    WHERE price BETWEEN 100000 AND 1000000
+    FROM errors
+    WHERE errors.analyzer_name = 'clang-tidy'
 );
 

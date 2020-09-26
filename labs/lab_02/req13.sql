@@ -6,10 +6,10 @@ JOIN (
     JOIN (
         SELECT cwe_id
         FROM cwe
-        WHERE EXISTS (
-            SELECT price
-            FROM errors
-            WHERE price > 100
+        WHERE status IN (
+            SELECT status
+            FROM cwe
+            WHERE weakness_abstraction = 'Base'
         )
     ) StatusID ON StatusID.cwe_id = errors.cwe_id
 ) AnalyzersID ON AnalyzersID.analyzer_name = analyzers.name;
