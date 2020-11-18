@@ -1,0 +1,1 @@
+SELECT * FROM TABLE(AnalyzerErrorsInfo('clang-tidy'));
