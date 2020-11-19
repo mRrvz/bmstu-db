@@ -4,6 +4,7 @@ mkdir -p /u01/app/oracle/oradata/defects && mkdir -p /u01/app/oracle/fast_recove
 
 sqlplus / as sysdba;
 create spfile from pfile;
+startup nomount;
 start /scripts/create_db.sql
 @?/rdbms/admin/catalog.sql
 @?/rdbms/admin/catproc.sql

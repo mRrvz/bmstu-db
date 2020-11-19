@@ -1,1 +1,1 @@
-SELECT * FROM TABLE(AnalyzerTree(2190));
+SELECT * FROM TABLE(AnalyzerTree(3));
