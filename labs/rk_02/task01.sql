@@ -1,41 +1,41 @@
 -- Вариант №1
 
---DROP TABLE animals;
---DROP TABLE dilease;
---DROP TABLE host;
---DROP TABLE animals_dilease; 
---DROP TABLE animals_host; 
+DROP TABLE animals;
+DROP TABLE dilease;
+DROP TABLE host;
+DROP TABLE animals_dilease; 
+DROP TABLE animals_host; 
 
--- CREATE TABLE animals( 
-    -- id INTEGER PRIMARY KEY,
-    -- animal_type VARCHAR2(32),
-    -- breed VARCHAR2(32),
-    -- nickname VARCHAR2(32)
--- );
+CREATE TABLE animals( 
+    id INTEGER PRIMARY KEY,
+    animal_type VARCHAR2(32),
+    breed VARCHAR2(32),
+    nickname VARCHAR2(32)
+);
 
--- CREATE TABLE dilease(
-    -- id INTEGER PRIMARY KEY,
-    -- name VARCHAR2(32),
-    -- symptom VARCHAR2(32),
-    -- analysis VARCHAR2(32)
--- );
+CREATE TABLE dilease(
+    id INTEGER PRIMARY KEY,
+    name VARCHAR2(32),
+    symptom VARCHAR2(32),
+    analysis VARCHAR2(32)
+);
 
--- CREATE TABLE host(
-    -- id INTEGER PRIMARY KEY,
-    -- fullname VARCHAR2(32),
-    -- address VARCHAR2(32),
-    -- phone_number VARCHAR2(32)
--- );
+CREATE TABLE host(
+    id INTEGER PRIMARY KEY,
+    fullname VARCHAR2(32),
+    address VARCHAR2(32),
+    phone_number VARCHAR2(32)
+);
 
--- CREATE TABLE animals_dilease(
-    -- animal_id INTEGER REFERENCES dilease(id),
-    -- dilease_id INTEGER REFERENCES animals(id)
--- );
+CREATE TABLE animals_dilease(
+    animal_id INTEGER REFERENCES dilease(id),
+    dilease_id INTEGER REFERENCES animals(id)
+);
 
--- CREATE TABLE animals_host(
-    -- animal_id INTEGER REFERENCES host(id),
-    -- host_id INTEGER REFERENCES animals(id)
--- );
+CREATE TABLE animals_host(
+    animal_id INTEGER REFERENCES host(id),
+    host_id INTEGER REFERENCES animals(id)
+);
 
 INSERT INTO animals VALUES(
     1, 'SuperFlexDog01', 'Bulldog', 'NichegoNePridumal01'
