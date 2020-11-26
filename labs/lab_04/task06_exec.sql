@@ -6,3 +6,5 @@ BEGIN
     INSERT INTO analyzers_min_info VALUES (obj);
 END;
 /
+
+SELECT * FROM analyzers_min_info;

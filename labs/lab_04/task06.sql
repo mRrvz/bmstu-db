@@ -1,8 +1,8 @@
 
 --CREATE OR REPLACE TYPE MinAnalyzerInfo_ AS OBJECT (
-    --analyzer_name VARCHAR2(128),
-    --price VARCHAR(128),
-    --sum_errors_price VARCHAR2(128)
+  --analyzer_name VARCHAR2(64),
+  -- price INTEGER,
+  --  sum_errors_price INTEGER
 --);
 --/
 

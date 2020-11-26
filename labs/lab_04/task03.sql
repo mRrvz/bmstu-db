@@ -2,9 +2,9 @@ DROP TYPE errors_table;
 DROP TYPE errors_row;
 
 CREATE OR REPLACE TYPE errors_row AS OBJECT (
-    danger_level VARCHAR2(128),
-    price VARCHAR2(128), 
-    flex_coeff VARCHAR2(128)
+    danger_level INTEGER,
+    price INTEGER, 
+    flex_coeff INTEGER 
 );
 /
 

@@ -12,8 +12,8 @@ public class CLRManager
 
     public static int SumErrors(String analyzerName) throws SQLException
     {
-        String request = "SELECT SUM(price) FROM errors WHERE analyzerName = ?";
-        int sum = -1;
+        String request = "SELECT SUM(price) FROM errors WHERE analyzer_name = ?";
+        int sum = 0;
 
         try
         {
@@ -32,31 +32,35 @@ public class CLRManager
         return sum;
     }
 
-    public static int AnalyzerPrice(String analyzerName) throws SQLException
+    public static int FormattedSumErrors(String analyzerName) throws SQLException
     {
-        String request = "SELECT price FROM analyzers WHERE name = ?";
-        int price = -1;
+        String request = "SELECT price FROM errors WHERE analyzer_name = ?";
+        int sum = 0;
 
         try
         {
             Connection conn = DriverManager.getConnection("jdbc:default:connection:");
             PreparedStatement pstmt = conn.prepareStatement(request);
-            pstmt.setString(1, analyzerName);
 
+            pstmt.setString(1, analyzerName);
             ResultSet res = pstmt.executeQuery();
-            res.next();
-            price = res.getInt(1);
-        } catch (SQLException err)
+
+            while (res.next())
+            {
+                int temp = res.getInt(1) / 100;
+
+                if (temp < 100000)
+                {
+                    sum += temp;
+                }
+            }
+        } 
+        catch (SQLException err)
         {
             System.err.println(err.getMessage());
         }
 
-        return price;
-    }
-
-    public static int TotalSum(String analyzerName) throws SQLException
-    {
-        return SumErrors(analyzerName) + AnalyzerPrice(analyzerName);
+        return sum;
     }
 
     public static void UpdatePrice(String analyzerName, int increasePrice)
@@ -141,7 +145,7 @@ public class CLRManager
     {
         String request = "SELECT danger_level, price FROM errors WHERE analyzer_name = ?";
         Connection conn = null;
-        String table[][] = new String[ROWCNT][3];
+        NUMBER table[][] = new NUMBER[ROWCNT][3];
 
         try
         {
@@ -157,9 +161,9 @@ public class CLRManager
                 int dangerLevel = res.getInt(1);
                 int price = res.getInt(2);
 
-                table[i][0] = Integer.toString(dangerLevel);
-                table[i][1] = Integer.toString(price);
-                table[i++][2] = Integer.toString(getFlexCoeff(dangerLevel, price));
+                table[i][0] = new NUMBER(dangerLevel);
+                table[i][1] = new NUMBER(price);
+                table[i++][2] = new NUMBER(getFlexCoeff(dangerLevel, price));
             }
 
         } catch (SQLException err)
@@ -189,8 +193,8 @@ public class CLRManager
             if (res.next())
             {
                 obj[0] = res.getString(1);
-                obj[1] = Integer.toString(res.getInt(2));
-                obj[2] = Integer.toString(SumErrors(analyzerName));
+                obj[1] = new NUMBER(res.getInt(2));
+                obj[2] = new NUMBER(SumErrors(analyzerName));
 
                 //attr.put("A1", "123");
                 //attr.put("price", "456");
