@@ -195,14 +195,6 @@ public class CLRManager
                 obj[0] = res.getString(1);
                 obj[1] = new NUMBER(res.getInt(2));
                 obj[2] = new NUMBER(SumErrors(analyzerName));
-
-                //attr.put("A1", "123");
-                //attr.put("price", "456");
-                //attr.put("sum_errors_price", "789");
-                //obj.put("analyzer_name", name);
-                //obj.put("price", Integer.toString(price));
-                //obj.put("sum_errors_price", Integer.toString(SumErrors(analyzerName)));
-                //obj.put("sum_errors_price", "AYO");
             }
 
         } catch (SQLException err)
