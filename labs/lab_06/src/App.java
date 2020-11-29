@@ -8,7 +8,7 @@ public class App
     static String menu[] = {
             "1. Scalar query.",
             "2. Multiple join query",
-            "3. TODO",
+            "3. Common table expression with window function.",
             "4. Querying metadata.",
             "5. Function call.",
             "6. Table function call.",
@@ -57,6 +57,7 @@ public class App
                 Requester.analyzersWithCweStatus(conn, "Stable");
                 break;
             case 3:
+                Requester.errorsInfo(conn, "clang-tidy");
                 break;
             case 4:
                 Requester.userTables(conn, "ALEXEY");
@@ -71,6 +72,7 @@ public class App
                 Requester.updatePrice(conn, "clang-tidy", 100);
                 break;
             case 8:
+                Requester.currentYear(conn);
                 break;
             case 9:
                 Requester.createTable(conn);

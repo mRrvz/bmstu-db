@@ -63,6 +63,38 @@ public class Requester
         }
     }
 
+    public static  void errorsInfo(Connection conn, String analyzer)
+    {
+        String query = "WITH ErrorsInfo(description, danger_level, AvgPrice)\n" +
+                "AS (\n" +
+                "    SELECT description, danger_level, AVG(price) OVER(PARTITION BY danger_level)\n" +
+                "    FROM errors\n" +
+                "    WHERE analyzer_name = ?\n" +
+                ") \n" +
+                "SELECT * FROM ErrorsInfo";
+
+        try
+        {
+            PreparedStatement pstmt = conn.prepareStatement(query);
+            pstmt.setString(1, analyzer);
+            ResultSet res = pstmt.executeQuery();
+
+            while (res.next())
+            {
+                System.out.format(
+                        "Error description: %s | Danger level: %d | Average price by danger level: %d\n",
+                        res.getString(1),
+                        res.getInt(2),
+                        res.getInt(3)
+                );
+            }
+        }
+        catch (SQLException err)
+        {
+            System.err.println(err.getMessage());
+        }
+    }
+
     public static void userTables(Connection conn, String username) throws SQLException
     {
         String query = "SELECT table_name FROM all_tables WHERE owner = ?";
@@ -152,9 +184,24 @@ public class Requester
         }
     }
 
-    public static void databaseName(Connection conn)
+    public static void currentYear(Connection conn)
     {
+        String query = "{? = call TO_NUMBER(EXTRACT(year FROM SYSDATE))}";
+        int year = 0;
 
+        try
+        {
+            CallableStatement cstmt = conn.prepareCall(query);
+            cstmt.registerOutParameter(1, Types.INTEGER);
+            cstmt.executeUpdate();
+            year = cstmt.getInt(1);
+        }
+        catch (SQLException err)
+        {
+            System.err.println(err.getMessage());
+        }
+
+        System.out.format("Current year is: %d.\n", year);
     }
 
     public static void createTable(Connection conn)
