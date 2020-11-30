@@ -35,3 +35,5 @@ sqlldr control='/home/oracle/load_cwe.ctl' log='log.ctl'
 sqlldr control='/home/oracle/load_analyzers.ctl' log='log.ctl'
 sqlldr control='/home/oracle/load_errors.ctl' log='log.ctl'
 
+
+export NLS_LANG=AMERICAN_AMERICA.UTF8
