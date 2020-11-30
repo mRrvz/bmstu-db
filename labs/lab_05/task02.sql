@@ -1,3 +1,5 @@
+DROP TABLE copy_cwe;
+
 CREATE TABLE copy_cwe(
     cwe_id INTEGER PRIMARY KEY,
     name VARCHAR(256) NOT NULL,
@@ -16,7 +18,7 @@ GRANT READ ON DIRECTORY MYDIR TO SYS;
 /
 
 DECLARE
-    l_json pljson;
+    l_json PLJSON;
     f utl_file.file_type;
     s VARCHAR2(1024);
 BEGIN
