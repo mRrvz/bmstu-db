@@ -31,11 +31,11 @@ def random_string(size):
 
 def generate_cwe(cwe_id):
     data = {
-        "cwe_id": cwe_id,
-        "name": random_string(random.randint(10, 256)),
-        "weakness_abstraction": random_string(random.randint(15, 512)),
-        "status": random.choice(allowed_status),
-        "description": random.choice(allowed_abstraction),
+        "CWE_ID": str(cwe_id),
+        "NAME": random_string(random.randint(10, 255)),
+        "WEAKNESS_ABSTRACTION": random.choice(allowed_abstraction),
+        "STATUS": random.choice(allowed_status),
+        "DESCRIPTION": random_string(random.randint(15, 255)),
     }
 
     return json.dumps(data)
@@ -50,7 +50,7 @@ def main():
         current_time = datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
         raw = generate_cwe(current_cwe_id)
 
-        with open(f"{file_id:02d}_{table_name}_{current_time}.json", "w") as f:
+        with open(f"/tmp/{file_id:02d}_{table_name}_{current_time}.json", "w") as f:
             f.write(raw)
 
         current_cwe_id += 1
