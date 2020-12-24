@@ -3,7 +3,7 @@ version: '3'
 services:
   database:
     shm_size: "4gb"
-    container_name: "oracle-container-new"
+    container_name: "oracle-container"
     image: container-registry.oracle.com/database/standard:latest
     ports:
       - 1521:1521
@@ -15,9 +15,9 @@ services:
       - PATH=$PATH:/u01/app/oracle/product/12.1.0/dbhome_1/bin
       - LD_LIBRARY_PATH=/u01/app/oracle/product/12.1.0/dbhome_1/lib
     env_file:
-      - .config/database.env
+      - config/database.env
     volumes:
       - ./labs:/labs
-#- ./lab_01:/labs/lab_01
       - ./datasets:/datasets
       - ./scripts:/scripts
+      - ./config:/config
